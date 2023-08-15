@@ -70,4 +70,4 @@ class Node(INode):
         left_child = self.left_child.to_string() if  self.left_child else "None" 
         parent = "parent" if  self.parent else "None" 
 
-        return f"operator: {str(self.operator)}, parent: {parent}\n\tright_child:\n{right_child}\n\tleft_child:\n{left_child}"
+        return f"operator: {str(self.operator)}, is_rec: {self.is_rec}, parent: {parent}\n\tright_child:\n{right_child}\n\tleft_child:\n{left_child}"

@@ -36,7 +36,7 @@ class GeneticStrategy (Strategy):
 
 class GeneticProgramming():
 
-    columns = ["Start","End","Duration","Exposure Time [%]","Equity Final [$]","Equity Peak [$]","Return [%]","Buy & Hold Return [%]","Return (Ann.) [%]","Volatility (Ann.) [%]","Sharpe Ratio","Sortino Ratio","Calmar Ratio","Max. Drawdown [%]","Avg. Drawdown [%]","Max. Drawdown Duration","Avg. Drawdown Duration","# Trades","Win Rate [%]","Best Trade [%]","Worst Trade [%]" ,"Avg. Trade [%]" ,"Max. Trade Duration","Avg. Trade Duration","Profit Factor","_strategy","_equity_curve","_trades"]
+    columns = ["Start","End","Duration","Exposure Time [%]","Equity Final [$]","Equity Peak [$]","Return [%]","Buy & Hold Return [%]","Return (Ann.) [%]","Volatility (Ann.) [%]","Sharpe Ratio","Sortino Ratio","Calmar Ratio","Max. Drawdown [%]","Avg. Drawdown [%]","Max. Drawdown Duration","Avg. Drawdown Duration","# Trades","Win Rate [%]","Best Trade [%]","Worst Trade [%]" ,"Avg. Trade [%]" ,"Max. Trade Duration","Avg. Trade Duration","Profit Factor","_strategy","_equity_curve"]
 
     def make_arr_tree(is_rec= False):
         return [Tree.make_tree(f"gen_1_no_{i}", is_rec=is_rec) for i in range(0, 20,1)]
@@ -44,7 +44,7 @@ class GeneticProgramming():
     def __init__(self, num_of_gen) -> None:
         self.arr = GeneticProgramming.make_arr_tree() + GeneticProgramming.make_arr_tree(True)
         self.num_of_gen = num_of_gen
-        self.df =  pd.DataFrame()
+        self.df =  pd.DataFrame(columns=self.columns)
         
     def run(self):
         def sort_by_stats(tree):
@@ -102,15 +102,54 @@ class GeneticProgramming():
             bt = Backtest(GOOG, GeneticStrategy, cash= 10_000)
             stats = bt.run()
             tree.set_stats(stats)
-            # stats['_trades'] = len(stats['_trades'])
-            self.df = pd.concat([self.df, stats], ignore_index=True)
-
-            # self.df = self.df.add(self.to_df(stats), ignore_index=True)
+           
+            self.add_to_df(stats)
 
             if is_polt:
                 bt.plot(filename=tree.name)
 
+    def add_to_df(self, stats):
+        new_row = {'Start' : stats['Start'],
+                'End' : stats['End'],
+                'Duration' : stats['Duration'],
+                'Exposure Time [%]' : stats['Exposure Time [%]'],
+                'Equity Final [$]' : stats['Equity Final [$]'],
+                'Equity Peak [$]' : stats['Equity Peak [$]'],
+                'Return [%]' : stats['Return [%]'],
+                'Buy & Hold Return [%]' : stats['Buy & Hold Return [%]'],
+                'Return (Ann.) [%]' : stats['Return (Ann.) [%]'],
+                'Volatility (Ann.) [%]' : stats['Volatility (Ann.) [%]'],
+                'Sharpe Ratio' : stats['Sharpe Ratio'],
+                'Sortino Ratio' : stats['Sortino Ratio'],
+                'Calmar Ratio' : stats['Calmar Ratio'],
+                'Max. Drawdown [%]' : stats['Max. Drawdown [%]'],
+                'Avg. Drawdown [%]' : stats['Avg. Drawdown [%]'],
+                'Max. Drawdown Duration' : stats['Max. Drawdown Duration'],
+                'Avg. Drawdown Duration' : stats['Avg. Drawdown Duration'],
+                '# Trades' : stats['# Trades'],
+                'Win Rate [%]' : stats['Win Rate [%]'],
+                'Best Trade [%]' : stats['Best Trade [%]'],
+                'Worst Trade [%]' : stats['Worst Trade [%]'],
+                'Avg. Trade [%]' : stats['Avg. Trade [%]'],
+                'Max. Trade Duration' : stats['Max. Trade Duration'],
+                'Avg. Trade Duration' : stats['Avg. Trade Duration'],
+                'Profit Factor' : stats['Profit Factor'],
+                '_strategy' : stats['_strategy'],
+                '_equity_curve' : stats['_equity_curve']}
+ 
+        self.df.loc[len(self.df)] = new_row
+
+    def write_results(self):
+        # results = '\n\n'.join([f"name: {t.print()}\nres: {t.stats}" for t in self.arr])
+        results = '\n\n'.join([f"name: {str(t.print())}\nres: {str(t.stats)} \nCALAC:{t.to_string()}" for t in self.arr])
+
+        f = open("results.md", "w")
+        f.write(results)
+        f.close()
+        g.df.to_csv("run.csv")
+
+
 
 g = GeneticProgramming(10)
 g.run()
-g.df.to_csv("run.csv")
+g.write_results()

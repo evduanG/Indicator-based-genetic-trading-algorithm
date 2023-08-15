@@ -58,40 +58,10 @@ class Evaluator:
         return strategy_score *factor
     
     def evaluate_strategy(params):
+        not_good_res = -99999
         if params['# Trades'] < 10:
-            return -99999
+            return not_good_res
+        elif  params['Return [%]'] < 0:
+            return 2* not_good_res
         
         return Evaluator(params).eval()
-        # Extract parameters
-        duration = params['Duration']
-        equity_final = params['Equity Final [$]']
-        equity_peak = params['Equity Peak [$]']
-        return_pct = params['Return [%]']
-        max_drawdown = params['Max. Drawdown [%]']
-        sharpe_ratio = params['Sharpe Ratio']
-        sortino_ratio = params['Sortino Ratio']
-        calmar_ratio = params['Calmar Ratio']
-        win_rate = params['Win Rate [%]']
-        avg_trade_pct = params['Avg. Trade [%]']
-        max_trade_duration = params['Max. Trade Duration'].days
-        profit_factor = params['Profit Factor']
-        sqn = params['SQN']
-
-
-    # # Example usage
-    # strategy_params = {
-    #     'Duration': 365,
-    #     'Equity Final [$]': 12000,
-    #     'Equity Peak [$]': 15000,
-    #     'Return [%]': 15,
-    #     'Max. Drawdown [%]': 10,
-    #     'Sharpe Ratio': 1.5,
-    #     'Sortino Ratio': 1.2,
-    #     'Calmar Ratio': 1.8,
-    #     'Win Rate [%]': 60,
-    #     'Avg. Trade [%]': 2,
-    #     'Max. Trade Duration': pd.Timedelta(days=5),
-    #     'Profit Factor': 1.5,
-    #     'SQN': 2.0,
-    #     '# Trades' : 25
-    # }
