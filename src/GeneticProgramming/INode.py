@@ -14,9 +14,10 @@ class INode(ABC):
         pass
 
     @abstractmethod
-    def calc(self, data):
+    def calc(self, data, is_to_str):
         pass
 
     @abstractmethod
     def to_string(self):
         pass
+

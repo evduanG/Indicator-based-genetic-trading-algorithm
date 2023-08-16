@@ -59,10 +59,12 @@ class Node(INode):
         print(f'node_from_b: {node_from_b} parent_b: {parent_b}')
    
     
-    def calc(self, data):
-        right_child_calc = self.right_child.calc(data) if self.right_child else None
-        left_child_calc = self.left_child.calc(data) if self.left_child else None
+    def calc(self, data, is_to_str= False):
+        right_child_calc = self.right_child.calc(self.rec_func(data), is_to_str) if self.right_child else None
+        left_child_calc = self.left_child.calc(self.rec_func(data), is_to_str) if self.left_child else None
         
+        if is_to_str: 
+            return f"({right_child_calc}) {str(self.operator)} ({left_child_calc})"
         return operator_actions[self.operator](right_child_calc, left_child_calc, self.to_bool)
     
     def to_string(self):

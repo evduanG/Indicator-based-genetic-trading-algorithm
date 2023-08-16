@@ -17,12 +17,20 @@ class Leaf(INode):
     def crossover(self, tree_a, tree_b):
         pass
 
-    def calc(self, data):
+    def calc(self, data, is_to_str= False):
+        if is_to_str:
+            return self.to_string()
         return self.function(data)
 
+    def visit(self):
+        pass
     
+    def inorder(self):
+        return self.visit()
+
     def to_string(self):
         return self.str
+    
     
 
     # def make_leaf(name):

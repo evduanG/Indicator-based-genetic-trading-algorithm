@@ -23,9 +23,11 @@ class Tree(Node):
         def make_bbands():
             def bbands(timeperiod, nbdevup, nbdevdn, matype,  func_cala):
                 def res(data):
-                    upperband, middleband, lowerband = talib.BBANDS(data, timeperiod=timeperiod, nbdevup=nbdevup, nbdevdn=nbdevdn, matype=matype)
-                    return func_cala(upperband, middleband ,lowerband)[-1]
-
+                    try :
+                        upperband, middleband, lowerband = talib.BBANDS(data, timeperiod=timeperiod, nbdevup=nbdevup, nbdevdn=nbdevdn, matype=matype)
+                        return func_cala(upperband, middleband ,lowerband)[-1]
+                    except:
+                        return 0
                 return res
 
             timeperiod = random.randrange(3, 21, 1)
@@ -47,12 +49,16 @@ class Tree(Node):
             def rsi(timeperiod, upper_bound, lower_bound, weight):
                 
                 def res(data):
-                    rsi = talib.RSI(data, timeperiod=timeperiod)
-                    if rsi[-1] < lower_bound:
-                        return -weight
-                    elif rsi[-1] > upper_bound:
-                        return weight
-                    return 0
+                    try :
+                        rsi = talib.RSI(data, timeperiod=timeperiod)
+                        if rsi[-1] < lower_bound:
+                            return -weight
+                        elif rsi[-1] > upper_bound:
+                            return weight
+                        return 0
+                    except:
+                        return 0
+                   
                     
                 return res
 
@@ -67,15 +73,19 @@ class Tree(Node):
         def make_ema_sma():
             def ema_sma(ema_timeperiod, sma_timeperiod, weight):
                 def res(data):
-                    ema = talib.EMA(data, ema_timeperiod)
-                    sma = talib.SMA(data, sma_timeperiod)
-                    
-                    if data[-1] > ema[-1] and data[-1] > sma[-1]:
-                        return weight
-                    elif data[-1] < ema[-1] and data[-1] < sma[-1]:
-                        return -weight
+                    try:
+                        ema = talib.EMA(data, ema_timeperiod)
+                        sma = talib.SMA(data, sma_timeperiod)
+                        
+                        if data[-1] > ema[-1] and data[-1] > sma[-1]:
+                            return weight
+                        elif data[-1] < ema[-1] and data[-1] < sma[-1]:
+                            return -weight
 
-                    return 0
+                        return 0
+                    except:
+                        return 0
+
                 return res
 
             ema_timeperiod = random.randrange(3, 21, 1)
@@ -144,12 +154,10 @@ class Tree(Node):
         action = lambda: random.choice(list_of_action)
         t = Tree(operator=rend_operator(), name=name)
         if is_rec:
-            arr = [lambda data: talib.LINEARREG_SLOPE(data, random.randrange(3,21,1)),
-                   lambda data: talib.HT_DCPERIOD(data, random.randrange(3,21,1)),
-                   lambda data: talib.HT_TRENDLINE(data, random.randrange(3,21,1)),]
+            ta_transform = [Tree.ht_dcperiod_transform, Tree.ht_dcperiod_transform, Tree.linearreg_slope_transform]
             
-            n1 = Node(rend_operator(), parent=t, is_rec=is_rec, rec_func=random.choice(arr))
-            n2 = Node(rend_operator(), parent=t, is_rec=is_rec, rec_func=random.choice(arr))
+            n1 = Node(rend_operator(), parent=t, is_rec=is_rec, rec_func=random.choice(ta_transform))
+            n2 = Node(rend_operator(), parent=t, is_rec=is_rec, rec_func=random.choice(ta_transform))
 
         else:
             n1 = Node(rend_operator(), parent=t)
@@ -171,7 +179,31 @@ class Tree(Node):
         t.left_child = n2
 
         return t
+    def linearreg_slope_transform(data, is_to_print= False):
+        time = 14
+        if is_to_print:
+            return f"talib.LINEARREG_SLOPE(data, {time})"
+        if len(data) < time:
+            return data
+        else:
+            return  talib.LINEARREG_SLOPE(data, time)
     
+    def ht_dcperiod_transform(data, is_to_print= False):
+        time = 32
+        if is_to_print:
+            return f"talib.HT_DCPERIOD(data)"
+        if len(data) <= time:
+            return data
+        return talib.HT_DCPERIOD(data)
+    
+    def ht_trendline_transform(data, is_to_print= False):
+        if is_to_print:
+            return f"talib.HT_DCPERIOD(data)"
+        time = 64
+        if len(data) <= time:
+            return data
+        return talib.HT_TRENDLINE(data)
+
     def to_string(self):
         return f"tree {super().to_string()}" 
 
@@ -216,7 +248,11 @@ class Tree(Node):
             tree_b.left_child = node
             tree_b.left_child.parent = tree_b.left_child
         #     pass
-         
+
+    def write_strategy(self, data):
+        algo = self.calc(data, is_to_str=True)
+        print (algo)
+
     def random_swap_trees(tree1, tree2):
         if not tree1 or not tree2:
             return None
@@ -248,3 +284,4 @@ class Tree(Node):
 
         recursive_swap(tree1, tree2)
         return new_tree1, new_tree2
+    

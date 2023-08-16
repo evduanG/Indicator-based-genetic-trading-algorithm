@@ -65,8 +65,7 @@ def sub_operation(a, b, to_bool):
         is_err, res = error_prevention(a, b, 0)
         if is_err:
             return res
-        if type(a) == bool and type(b) == bool:
-            # print("type(a) != bool and type(b) != bool")
+        if bool(a) and  bool(b):
             return np.logical_xor(a, b)
         else:
             return a - b

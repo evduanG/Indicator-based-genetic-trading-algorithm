@@ -1,1918 +1,1069 @@
-name: name: gen_1_no_14-t2-g1, eval 3.538651398820217
+name: name: g_1_no_2, eval -199998
 res: Start                     2004-08-19 00:00:00
 End                       2013-03-01 00:00:00
 Duration                   3116 days 00:00:00
-Exposure Time [%]                    99.90689
-Equity Final [$]                   427930.225
-Equity Peak [$]                    461492.935
-Return [%]                         4179.30225
-Buy & Hold Return [%]              703.458242
-Return (Ann.) [%]                   55.378214
-Volatility (Ann.) [%]               58.762385
-Sharpe Ratio                         0.942409
-Sortino Ratio                        2.305258
-Calmar Ratio                         1.419503
-Max. Drawdown [%]                  -39.012406
-Avg. Drawdown [%]                   -6.458078
-Max. Drawdown Duration      560 days 00:00:00
-Avg. Drawdown Duration       38 days 00:00:00
-# Trades                                  628
-Win Rate [%]                        57.484076
-Best Trade [%]                      13.790276
-Worst Trade [%]                    -20.434293
-Avg. Trade [%]                       0.749836
-Max. Trade Duration          58 days 00:00:00
-Avg. Trade Duration           9 days 00:00:00
-Profit Factor                        1.462601
-Expectancy [%]                       0.877701
-SQN                                  2.396248
-_strategy                     GeneticStrategy
-_equity_curve                             ...
-_trades                        Size  Entry...
-dtype: object 
-CALAC:tree operator: Operator.AND, is_rec: False, parent: None
-	right_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-	left_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-
-name: name: gen_1_no_9-t1-g0-m18, eval 3.060085622397515
-res: Start                     2004-08-19 00:00:00
-End                       2013-03-01 00:00:00
-Duration                   3116 days 00:00:00
-Exposure Time [%]                    99.90689
-Equity Final [$]                  408295.5845
-Equity Peak [$]                   440332.5905
-Return [%]                        3982.955845
-Buy & Hold Return [%]              703.458242
-Return (Ann.) [%]                   54.524387
-Volatility (Ann.) [%]               58.360022
-Sharpe Ratio                         0.934276
-Sortino Ratio                        2.265449
-Calmar Ratio                         1.400316
-Max. Drawdown [%]                  -38.937214
-Avg. Drawdown [%]                   -6.636581
-Max. Drawdown Duration      560 days 00:00:00
-Avg. Drawdown Duration       39 days 00:00:00
-# Trades                                  628
-Win Rate [%]                        57.165605
-Best Trade [%]                      13.790276
-Worst Trade [%]                    -20.434293
-Avg. Trade [%]                       0.708154
-Max. Trade Duration          58 days 00:00:00
-Avg. Trade Duration           9 days 00:00:00
-Profit Factor                        1.435612
-Expectancy [%]                       0.836618
-SQN                                  2.393985
-_strategy                     GeneticStrategy
-_equity_curve                             ...
-_trades                        Size  Entry...
-dtype: object 
-CALAC:tree operator: Operator.BIGGER, is_rec: False, parent: None
-	right_child:
-operator: Operator.XOR, is_rec: False, parent: parent
-	right_child:
-rsi:
-	timeperiod:20
-	upper_bound: 84
-	lower_bound: 38
-	weight: 1.43
-	left_child:
-rsi:
-	timeperiod:20
-	upper_bound: 71
-	lower_bound: 5
-	weight: 0.54
-	left_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-
-name: name: gen_1_no_3-t2-g6-t2-g8, eval 3.538651398820217
-res: Start                     2004-08-19 00:00:00
-End                       2013-03-01 00:00:00
-Duration                   3116 days 00:00:00
-Exposure Time [%]                    99.90689
-Equity Final [$]                   427930.225
-Equity Peak [$]                    461492.935
-Return [%]                         4179.30225
-Buy & Hold Return [%]              703.458242
-Return (Ann.) [%]                   55.378214
-Volatility (Ann.) [%]               58.762385
-Sharpe Ratio                         0.942409
-Sortino Ratio                        2.305258
-Calmar Ratio                         1.419503
-Max. Drawdown [%]                  -39.012406
-Avg. Drawdown [%]                   -6.458078
-Max. Drawdown Duration      560 days 00:00:00
-Avg. Drawdown Duration       38 days 00:00:00
-# Trades                                  628
-Win Rate [%]                        57.484076
-Best Trade [%]                      13.790276
-Worst Trade [%]                    -20.434293
-Avg. Trade [%]                       0.749836
-Max. Trade Duration          58 days 00:00:00
-Avg. Trade Duration           9 days 00:00:00
-Profit Factor                        1.462601
-Expectancy [%]                       0.877701
-SQN                                  2.396248
-_strategy                     GeneticStrategy
-_equity_curve                             ...
-_trades                        Size  Entry...
-dtype: object 
-CALAC:tree operator: Operator.AND, is_rec: False, parent: None
-	right_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-	left_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-
-name: name: gen_1_no_2-t1-g1-t1-g2-t1-g3-t2-g4-t3-g6, eval 3.538651398820217
-res: Start                     2004-08-19 00:00:00
-End                       2013-03-01 00:00:00
-Duration                   3116 days 00:00:00
-Exposure Time [%]                    99.90689
-Equity Final [$]                   427930.225
-Equity Peak [$]                    461492.935
-Return [%]                         4179.30225
-Buy & Hold Return [%]              703.458242
-Return (Ann.) [%]                   55.378214
-Volatility (Ann.) [%]               58.762385
-Sharpe Ratio                         0.942409
-Sortino Ratio                        2.305258
-Calmar Ratio                         1.419503
-Max. Drawdown [%]                  -39.012406
-Avg. Drawdown [%]                   -6.458078
-Max. Drawdown Duration      560 days 00:00:00
-Avg. Drawdown Duration       38 days 00:00:00
-# Trades                                  628
-Win Rate [%]                        57.484076
-Best Trade [%]                      13.790276
-Worst Trade [%]                    -20.434293
-Avg. Trade [%]                       0.749836
-Max. Trade Duration          58 days 00:00:00
-Avg. Trade Duration           9 days 00:00:00
-Profit Factor                        1.462601
-Expectancy [%]                       0.877701
-SQN                                  2.396248
-_strategy                     GeneticStrategy
-_equity_curve                             ...
-_trades                        Size  Entry...
-dtype: object 
-CALAC:tree operator: Operator.XOR, is_rec: False, parent: None
-	right_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-	left_child:
-operator: Operator.ADD, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:24
-	upper_bound: 91
-	lower_bound: 19
-	weight: 1.01
-	left_child:
-bbands:
-	timeperiod:18
-	nbdevup: 3
-	nbdevdn:6
-	type_func:2
-
-name: name: gen_1_no_3-t2-g6, eval 3.538651398820217
-res: Start                     2004-08-19 00:00:00
-End                       2013-03-01 00:00:00
-Duration                   3116 days 00:00:00
-Exposure Time [%]                    99.90689
-Equity Final [$]                   427930.225
-Equity Peak [$]                    461492.935
-Return [%]                         4179.30225
-Buy & Hold Return [%]              703.458242
-Return (Ann.) [%]                   55.378214
-Volatility (Ann.) [%]               58.762385
-Sharpe Ratio                         0.942409
-Sortino Ratio                        2.305258
-Calmar Ratio                         1.419503
-Max. Drawdown [%]                  -39.012406
-Avg. Drawdown [%]                   -6.458078
-Max. Drawdown Duration      560 days 00:00:00
-Avg. Drawdown Duration       38 days 00:00:00
-# Trades                                  628
-Win Rate [%]                        57.484076
-Best Trade [%]                      13.790276
-Worst Trade [%]                    -20.434293
-Avg. Trade [%]                       0.749836
-Max. Trade Duration          58 days 00:00:00
-Avg. Trade Duration           9 days 00:00:00
-Profit Factor                        1.462601
-Expectancy [%]                       0.877701
-SQN                                  2.396248
-_strategy                     GeneticStrategy
-_equity_curve                             ...
-_trades                        Size  Entry...
-dtype: object 
-CALAC:tree operator: Operator.ADD, is_rec: False, parent: None
-	right_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-	left_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-
-name: name: gen_1_no_17-t3-g0, eval 3.538651398820217
-res: Start                     2004-08-19 00:00:00
-End                       2013-03-01 00:00:00
-Duration                   3116 days 00:00:00
-Exposure Time [%]                    99.90689
-Equity Final [$]                   427930.225
-Equity Peak [$]                    461492.935
-Return [%]                         4179.30225
-Buy & Hold Return [%]              703.458242
-Return (Ann.) [%]                   55.378214
-Volatility (Ann.) [%]               58.762385
-Sharpe Ratio                         0.942409
-Sortino Ratio                        2.305258
-Calmar Ratio                         1.419503
-Max. Drawdown [%]                  -39.012406
-Avg. Drawdown [%]                   -6.458078
-Max. Drawdown Duration      560 days 00:00:00
-Avg. Drawdown Duration       38 days 00:00:00
-# Trades                                  628
-Win Rate [%]                        57.484076
-Best Trade [%]                      13.790276
-Worst Trade [%]                    -20.434293
-Avg. Trade [%]                       0.749836
-Max. Trade Duration          58 days 00:00:00
-Avg. Trade Duration           9 days 00:00:00
-Profit Factor                        1.462601
-Expectancy [%]                       0.877701
-SQN                                  2.396248
-_strategy                     GeneticStrategy
-_equity_curve                             ...
-_trades                        Size  Entry...
-dtype: object 
-CALAC:tree operator: Operator.SMALLER, is_rec: False, parent: None
-	right_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-	left_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-
-name: name: gen_1_no_2-t1-g1-t1-g2-t1-g3-t2-g4-t1-g7, eval 3.538651398820217
-res: Start                     2004-08-19 00:00:00
-End                       2013-03-01 00:00:00
-Duration                   3116 days 00:00:00
-Exposure Time [%]                    99.90689
-Equity Final [$]                   427930.225
-Equity Peak [$]                    461492.935
-Return [%]                         4179.30225
-Buy & Hold Return [%]              703.458242
-Return (Ann.) [%]                   55.378214
-Volatility (Ann.) [%]               58.762385
-Sharpe Ratio                         0.942409
-Sortino Ratio                        2.305258
-Calmar Ratio                         1.419503
-Max. Drawdown [%]                  -39.012406
-Avg. Drawdown [%]                   -6.458078
-Max. Drawdown Duration      560 days 00:00:00
-Avg. Drawdown Duration       38 days 00:00:00
-# Trades                                  628
-Win Rate [%]                        57.484076
-Best Trade [%]                      13.790276
-Worst Trade [%]                    -20.434293
-Avg. Trade [%]                       0.749836
-Max. Trade Duration          58 days 00:00:00
-Avg. Trade Duration           9 days 00:00:00
-Profit Factor                        1.462601
-Expectancy [%]                       0.877701
-SQN                                  2.396248
-_strategy                     GeneticStrategy
-_equity_curve                             ...
-_trades                        Size  Entry...
-dtype: object 
-CALAC:tree operator: Operator.XOR, is_rec: False, parent: None
-	right_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-	left_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-
-name: name: gen_1_no_2-t1-g1-t1-g2-t1-g3-t1-g4-t3-g5-t3-g7, eval 3.538651398820217
-res: Start                     2004-08-19 00:00:00
-End                       2013-03-01 00:00:00
-Duration                   3116 days 00:00:00
-Exposure Time [%]                    99.90689
-Equity Final [$]                   427930.225
-Equity Peak [$]                    461492.935
-Return [%]                         4179.30225
-Buy & Hold Return [%]              703.458242
-Return (Ann.) [%]                   55.378214
-Volatility (Ann.) [%]               58.762385
-Sharpe Ratio                         0.942409
-Sortino Ratio                        2.305258
-Calmar Ratio                         1.419503
-Max. Drawdown [%]                  -39.012406
-Avg. Drawdown [%]                   -6.458078
-Max. Drawdown Duration      560 days 00:00:00
-Avg. Drawdown Duration       38 days 00:00:00
-# Trades                                  628
-Win Rate [%]                        57.484076
-Best Trade [%]                      13.790276
-Worst Trade [%]                    -20.434293
-Avg. Trade [%]                       0.749836
-Max. Trade Duration          58 days 00:00:00
-Avg. Trade Duration           9 days 00:00:00
-Profit Factor                        1.462601
-Expectancy [%]                       0.877701
-SQN                                  2.396248
-_strategy                     GeneticStrategy
-_equity_curve                             ...
-_trades                        Size  Entry...
-dtype: object 
-CALAC:tree operator: Operator.XOR, is_rec: False, parent: None
-	right_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-	left_child:
-operator: Operator.ADD, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:24
-	upper_bound: 91
-	lower_bound: 19
-	weight: 1.01
-	left_child:
-bbands:
-	timeperiod:18
-	nbdevup: 3
-	nbdevdn:6
-	type_func:2
-
-name: name: gen_1_no_2-t1-g1-t1-g2-t3-g4-t1-g8, eval 3.538651398820217
-res: Start                     2004-08-19 00:00:00
-End                       2013-03-01 00:00:00
-Duration                   3116 days 00:00:00
-Exposure Time [%]                    99.90689
-Equity Final [$]                   427930.225
-Equity Peak [$]                    461492.935
-Return [%]                         4179.30225
-Buy & Hold Return [%]              703.458242
-Return (Ann.) [%]                   55.378214
-Volatility (Ann.) [%]               58.762385
-Sharpe Ratio                         0.942409
-Sortino Ratio                        2.305258
-Calmar Ratio                         1.419503
-Max. Drawdown [%]                  -39.012406
-Avg. Drawdown [%]                   -6.458078
-Max. Drawdown Duration      560 days 00:00:00
-Avg. Drawdown Duration       38 days 00:00:00
-# Trades                                  628
-Win Rate [%]                        57.484076
-Best Trade [%]                      13.790276
-Worst Trade [%]                    -20.434293
-Avg. Trade [%]                       0.749836
-Max. Trade Duration          58 days 00:00:00
-Avg. Trade Duration           9 days 00:00:00
-Profit Factor                        1.462601
-Expectancy [%]                       0.877701
-SQN                                  2.396248
-_strategy                     GeneticStrategy
-_equity_curve                             ...
-_trades                        Size  Entry...
-dtype: object 
-CALAC:tree operator: Operator.BIGGER, is_rec: False, parent: None
-	right_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-	left_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-
-name: name: gen_1_no_14-t2-g1-t3-g8, eval 3.538651398820217
-res: Start                     2004-08-19 00:00:00
-End                       2013-03-01 00:00:00
-Duration                   3116 days 00:00:00
-Exposure Time [%]                    99.90689
-Equity Final [$]                   427930.225
-Equity Peak [$]                    461492.935
-Return [%]                         4179.30225
-Buy & Hold Return [%]              703.458242
-Return (Ann.) [%]                   55.378214
-Volatility (Ann.) [%]               58.762385
-Sharpe Ratio                         0.942409
-Sortino Ratio                        2.305258
-Calmar Ratio                         1.419503
-Max. Drawdown [%]                  -39.012406
-Avg. Drawdown [%]                   -6.458078
-Max. Drawdown Duration      560 days 00:00:00
-Avg. Drawdown Duration       38 days 00:00:00
-# Trades                                  628
-Win Rate [%]                        57.484076
-Best Trade [%]                      13.790276
-Worst Trade [%]                    -20.434293
-Avg. Trade [%]                       0.749836
-Max. Trade Duration          58 days 00:00:00
-Avg. Trade Duration           9 days 00:00:00
-Profit Factor                        1.462601
-Expectancy [%]                       0.877701
-SQN                                  2.396248
-_strategy                     GeneticStrategy
-_equity_curve                             ...
-_trades                        Size  Entry...
-dtype: object 
-CALAC:tree operator: Operator.AND, is_rec: False, parent: None
-	right_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-	left_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-
-name: name: gen_1_no_2-t1-g1-t1-g2-t1-g3-t2-g4-t1-g7, eval -199998
-res: Start                     2004-08-19 00:00:00
-End                       2013-03-01 00:00:00
-Duration                   3116 days 00:00:00
-Exposure Time [%]                    99.90689
-Equity Final [$]                    1047.3885
-Equity Peak [$]                    11496.0425
-Return [%]                         -89.526115
-Buy & Hold Return [%]              703.458242
-Return (Ann.) [%]                  -23.256681
-Volatility (Ann.) [%]               27.300097
-Sharpe Ratio                              0.0
-Sortino Ratio                             0.0
-Calmar Ratio                              0.0
-Max. Drawdown [%]                   -90.89488
-Avg. Drawdown [%]                  -23.830082
-Max. Drawdown Duration     3101 days 00:00:00
-Avg. Drawdown Duration      778 days 00:00:00
-# Trades                                  489
-Win Rate [%]                        44.171779
-Best Trade [%]                      13.790276
-Worst Trade [%]                    -20.434293
-Avg. Trade [%]                      -0.554838
-Max. Trade Duration          56 days 00:00:00
-Avg. Trade Duration           8 days 00:00:00
-Profit Factor                        0.835739
-Expectancy [%]                       -0.42028
-SQN                                 -2.737478
-_strategy                     GeneticStrategy
-_equity_curve                             ...
-_trades                        Size  Entry...
-dtype: object 
-CALAC:tree operator: Operator.OR, is_rec: False, parent: None
-	right_child:
-operator: Operator.ADD, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:24
-	upper_bound: 91
-	lower_bound: 19
-	weight: 1.01
-	left_child:
-bbands:
-	timeperiod:18
-	nbdevup: 3
-	nbdevdn:6
-	type_func:2
-	left_child:
-operator: Operator.ADD, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:24
-	upper_bound: 91
-	lower_bound: 19
-	weight: 1.01
-	left_child:
-bbands:
-	timeperiod:18
-	nbdevup: 3
-	nbdevdn:6
-	type_func:2
-
-name: name: gen_1_no_2-t1-g1-t1-g2-t3-g4, eval 3.538651398820217
-res: Start                     2004-08-19 00:00:00
-End                       2013-03-01 00:00:00
-Duration                   3116 days 00:00:00
-Exposure Time [%]                    99.90689
-Equity Final [$]                   427930.225
-Equity Peak [$]                    461492.935
-Return [%]                         4179.30225
-Buy & Hold Return [%]              703.458242
-Return (Ann.) [%]                   55.378214
-Volatility (Ann.) [%]               58.762385
-Sharpe Ratio                         0.942409
-Sortino Ratio                        2.305258
-Calmar Ratio                         1.419503
-Max. Drawdown [%]                  -39.012406
-Avg. Drawdown [%]                   -6.458078
-Max. Drawdown Duration      560 days 00:00:00
-Avg. Drawdown Duration       38 days 00:00:00
-# Trades                                  628
-Win Rate [%]                        57.484076
-Best Trade [%]                      13.790276
-Worst Trade [%]                    -20.434293
-Avg. Trade [%]                       0.749836
-Max. Trade Duration          58 days 00:00:00
-Avg. Trade Duration           9 days 00:00:00
-Profit Factor                        1.462601
-Expectancy [%]                       0.877701
-SQN                                  2.396248
-_strategy                     GeneticStrategy
-_equity_curve                             ...
-_trades                        Size  Entry...
-dtype: object 
-CALAC:tree operator: Operator.BIGGER, is_rec: False, parent: None
-	right_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-	left_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-
-name: name: gen_1_no_2-t1-g1-t1-g2-t3-g4-t1-g8, eval 3.060085622397515
-res: Start                     2004-08-19 00:00:00
-End                       2013-03-01 00:00:00
-Duration                   3116 days 00:00:00
-Exposure Time [%]                    99.90689
-Equity Final [$]                  408295.5845
-Equity Peak [$]                   440332.5905
-Return [%]                        3982.955845
-Buy & Hold Return [%]              703.458242
-Return (Ann.) [%]                   54.524387
-Volatility (Ann.) [%]               58.360022
-Sharpe Ratio                         0.934276
-Sortino Ratio                        2.265449
-Calmar Ratio                         1.400316
-Max. Drawdown [%]                  -38.937214
-Avg. Drawdown [%]                   -6.636581
-Max. Drawdown Duration      560 days 00:00:00
-Avg. Drawdown Duration       39 days 00:00:00
-# Trades                                  628
-Win Rate [%]                        57.165605
-Best Trade [%]                      13.790276
-Worst Trade [%]                    -20.434293
-Avg. Trade [%]                       0.708154
-Max. Trade Duration          58 days 00:00:00
-Avg. Trade Duration           9 days 00:00:00
-Profit Factor                        1.435612
-Expectancy [%]                       0.836618
-SQN                                  2.393985
-_strategy                     GeneticStrategy
-_equity_curve                             ...
-_trades                        Size  Entry...
-dtype: object 
-CALAC:tree operator: Operator.BIGGER, is_rec: False, parent: None
-	right_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-	left_child:
-operator: Operator.XOR, is_rec: False, parent: parent
-	right_child:
-rsi:
-	timeperiod:20
-	upper_bound: 84
-	lower_bound: 38
-	weight: 1.43
-	left_child:
-rsi:
-	timeperiod:20
-	upper_bound: 71
-	lower_bound: 5
-	weight: 0.54
-
-name: name: gen_1_no_13, eval 3.538651398820217
-res: Start                     2004-08-19 00:00:00
-End                       2013-03-01 00:00:00
-Duration                   3116 days 00:00:00
-Exposure Time [%]                    99.90689
-Equity Final [$]                   427930.225
-Equity Peak [$]                    461492.935
-Return [%]                         4179.30225
-Buy & Hold Return [%]              703.458242
-Return (Ann.) [%]                   55.378214
-Volatility (Ann.) [%]               58.762385
-Sharpe Ratio                         0.942409
-Sortino Ratio                        2.305258
-Calmar Ratio                         1.419503
-Max. Drawdown [%]                  -39.012406
-Avg. Drawdown [%]                   -6.458078
-Max. Drawdown Duration      560 days 00:00:00
-Avg. Drawdown Duration       38 days 00:00:00
-# Trades                                  628
-Win Rate [%]                        57.484076
-Best Trade [%]                      13.790276
-Worst Trade [%]                    -20.434293
-Avg. Trade [%]                       0.749836
-Max. Trade Duration          58 days 00:00:00
-Avg. Trade Duration           9 days 00:00:00
-Profit Factor                        1.462601
-Expectancy [%]                       0.877701
-SQN                                  2.396248
-_strategy                     GeneticStrategy
-_equity_curve                             ...
-_trades                        Size  Entry...
-dtype: object 
-CALAC:tree operator: Operator.OR, is_rec: False, parent: None
-	right_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-	left_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-
-name: name: gen_1_no_2-t1-g1-t1-g2-t1-g3-t2-g4, eval -199998
-res: Start                     2004-08-19 00:00:00
-End                       2013-03-01 00:00:00
-Duration                   3116 days 00:00:00
-Exposure Time [%]                    99.90689
-Equity Final [$]                    1047.3885
-Equity Peak [$]                    11496.0425
-Return [%]                         -89.526115
-Buy & Hold Return [%]              703.458242
-Return (Ann.) [%]                  -23.256681
-Volatility (Ann.) [%]               27.300097
-Sharpe Ratio                              0.0
-Sortino Ratio                             0.0
-Calmar Ratio                              0.0
-Max. Drawdown [%]                   -90.89488
-Avg. Drawdown [%]                  -23.830082
-Max. Drawdown Duration     3101 days 00:00:00
-Avg. Drawdown Duration      778 days 00:00:00
-# Trades                                  489
-Win Rate [%]                        44.171779
-Best Trade [%]                      13.790276
-Worst Trade [%]                    -20.434293
-Avg. Trade [%]                      -0.554838
-Max. Trade Duration          56 days 00:00:00
-Avg. Trade Duration           8 days 00:00:00
-Profit Factor                        0.835739
-Expectancy [%]                       -0.42028
-SQN                                 -2.737478
-_strategy                     GeneticStrategy
-_equity_curve                             ...
-_trades                        Size  Entry...
-dtype: object 
-CALAC:tree operator: Operator.XOR, is_rec: False, parent: None
-	right_child:
-operator: Operator.ADD, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:24
-	upper_bound: 91
-	lower_bound: 19
-	weight: 1.01
-	left_child:
-bbands:
-	timeperiod:18
-	nbdevup: 3
-	nbdevdn:6
-	type_func:2
-	left_child:
-operator: Operator.ADD, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:24
-	upper_bound: 91
-	lower_bound: 19
-	weight: 1.01
-	left_child:
-bbands:
-	timeperiod:18
-	nbdevup: 3
-	nbdevdn:6
-	type_func:2
-
-name: name: gen_1_no_2-t1-g1-t1-g2-t1-g3-t1-g4-t3-g5-t2-g7, eval 3.538651398820217
-res: Start                     2004-08-19 00:00:00
-End                       2013-03-01 00:00:00
-Duration                   3116 days 00:00:00
-Exposure Time [%]                    99.90689
-Equity Final [$]                   427930.225
-Equity Peak [$]                    461492.935
-Return [%]                         4179.30225
-Buy & Hold Return [%]              703.458242
-Return (Ann.) [%]                   55.378214
-Volatility (Ann.) [%]               58.762385
-Sharpe Ratio                         0.942409
-Sortino Ratio                        2.305258
-Calmar Ratio                         1.419503
-Max. Drawdown [%]                  -39.012406
-Avg. Drawdown [%]                   -6.458078
-Max. Drawdown Duration      560 days 00:00:00
-Avg. Drawdown Duration       38 days 00:00:00
-# Trades                                  628
-Win Rate [%]                        57.484076
-Best Trade [%]                      13.790276
-Worst Trade [%]                    -20.434293
-Avg. Trade [%]                       0.749836
-Max. Trade Duration          58 days 00:00:00
-Avg. Trade Duration           9 days 00:00:00
-Profit Factor                        1.462601
-Expectancy [%]                       0.877701
-SQN                                  2.396248
-_strategy                     GeneticStrategy
-_equity_curve                             ...
-_trades                        Size  Entry...
-dtype: object 
-CALAC:tree operator: Operator.XOR, is_rec: False, parent: None
-	right_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-	left_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-
-name: name: gen_1_no_14-t2-g1-t3-g8, eval 3.538651398820217
-res: Start                     2004-08-19 00:00:00
-End                       2013-03-01 00:00:00
-Duration                   3116 days 00:00:00
-Exposure Time [%]                    99.90689
-Equity Final [$]                   427930.225
-Equity Peak [$]                    461492.935
-Return [%]                         4179.30225
-Buy & Hold Return [%]              703.458242
-Return (Ann.) [%]                   55.378214
-Volatility (Ann.) [%]               58.762385
-Sharpe Ratio                         0.942409
-Sortino Ratio                        2.305258
-Calmar Ratio                         1.419503
-Max. Drawdown [%]                  -39.012406
-Avg. Drawdown [%]                   -6.458078
-Max. Drawdown Duration      560 days 00:00:00
-Avg. Drawdown Duration       38 days 00:00:00
-# Trades                                  628
-Win Rate [%]                        57.484076
-Best Trade [%]                      13.790276
-Worst Trade [%]                    -20.434293
-Avg. Trade [%]                       0.749836
-Max. Trade Duration          58 days 00:00:00
-Avg. Trade Duration           9 days 00:00:00
-Profit Factor                        1.462601
-Expectancy [%]                       0.877701
-SQN                                  2.396248
-_strategy                     GeneticStrategy
-_equity_curve                             ...
-_trades                        Size  Entry...
-dtype: object 
-CALAC:tree operator: Operator.AND, is_rec: False, parent: None
-	right_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-	left_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-
-name: name: gen_1_no_3-t2-g6, eval 3.538651398820217
-res: Start                     2004-08-19 00:00:00
-End                       2013-03-01 00:00:00
-Duration                   3116 days 00:00:00
-Exposure Time [%]                    99.90689
-Equity Final [$]                   427930.225
-Equity Peak [$]                    461492.935
-Return [%]                         4179.30225
-Buy & Hold Return [%]              703.458242
-Return (Ann.) [%]                   55.378214
-Volatility (Ann.) [%]               58.762385
-Sharpe Ratio                         0.942409
-Sortino Ratio                        2.305258
-Calmar Ratio                         1.419503
-Max. Drawdown [%]                  -39.012406
-Avg. Drawdown [%]                   -6.458078
-Max. Drawdown Duration      560 days 00:00:00
-Avg. Drawdown Duration       38 days 00:00:00
-# Trades                                  628
-Win Rate [%]                        57.484076
-Best Trade [%]                      13.790276
-Worst Trade [%]                    -20.434293
-Avg. Trade [%]                       0.749836
-Max. Trade Duration          58 days 00:00:00
-Avg. Trade Duration           9 days 00:00:00
-Profit Factor                        1.462601
-Expectancy [%]                       0.877701
-SQN                                  2.396248
-_strategy                     GeneticStrategy
-_equity_curve                             ...
-_trades                        Size  Entry...
-dtype: object 
-CALAC:tree operator: Operator.AND, is_rec: False, parent: None
-	right_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-	left_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-
-name: name: gen_1_no_3-t2-g6-t2-g8, eval 3.060085622397515
-res: Start                     2004-08-19 00:00:00
-End                       2013-03-01 00:00:00
-Duration                   3116 days 00:00:00
-Exposure Time [%]                    99.90689
-Equity Final [$]                  408295.5845
-Equity Peak [$]                   440332.5905
-Return [%]                        3982.955845
-Buy & Hold Return [%]              703.458242
-Return (Ann.) [%]                   54.524387
-Volatility (Ann.) [%]               58.360022
-Sharpe Ratio                         0.934276
-Sortino Ratio                        2.265449
-Calmar Ratio                         1.400316
-Max. Drawdown [%]                  -38.937214
-Avg. Drawdown [%]                   -6.636581
-Max. Drawdown Duration      560 days 00:00:00
-Avg. Drawdown Duration       39 days 00:00:00
-# Trades                                  628
-Win Rate [%]                        57.165605
-Best Trade [%]                      13.790276
-Worst Trade [%]                    -20.434293
-Avg. Trade [%]                       0.708154
-Max. Trade Duration          58 days 00:00:00
-Avg. Trade Duration           9 days 00:00:00
-Profit Factor                        1.435612
-Expectancy [%]                       0.836618
-SQN                                  2.393985
-_strategy                     GeneticStrategy
-_equity_curve                             ...
-_trades                        Size  Entry...
-dtype: object 
-CALAC:tree operator: Operator.AND, is_rec: False, parent: None
-	right_child:
-operator: Operator.XOR, is_rec: False, parent: parent
-	right_child:
-rsi:
-	timeperiod:20
-	upper_bound: 84
-	lower_bound: 38
-	weight: 1.43
-	left_child:
-rsi:
-	timeperiod:20
-	upper_bound: 71
-	lower_bound: 5
-	weight: 0.54
-	left_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-
-name: name: gen_1_no_2-t1-g1-t1-g2-t1-g3-t1-g4-t3-g5-t3-g7, eval 3.538651398820217
-res: Start                     2004-08-19 00:00:00
-End                       2013-03-01 00:00:00
-Duration                   3116 days 00:00:00
-Exposure Time [%]                    99.90689
-Equity Final [$]                   427930.225
-Equity Peak [$]                    461492.935
-Return [%]                         4179.30225
-Buy & Hold Return [%]              703.458242
-Return (Ann.) [%]                   55.378214
-Volatility (Ann.) [%]               58.762385
-Sharpe Ratio                         0.942409
-Sortino Ratio                        2.305258
-Calmar Ratio                         1.419503
-Max. Drawdown [%]                  -39.012406
-Avg. Drawdown [%]                   -6.458078
-Max. Drawdown Duration      560 days 00:00:00
-Avg. Drawdown Duration       38 days 00:00:00
-# Trades                                  628
-Win Rate [%]                        57.484076
-Best Trade [%]                      13.790276
-Worst Trade [%]                    -20.434293
-Avg. Trade [%]                       0.749836
-Max. Trade Duration          58 days 00:00:00
-Avg. Trade Duration           9 days 00:00:00
-Profit Factor                        1.462601
-Expectancy [%]                       0.877701
-SQN                                  2.396248
-_strategy                     GeneticStrategy
-_equity_curve                             ...
-_trades                        Size  Entry...
-dtype: object 
-CALAC:tree operator: Operator.XOR, is_rec: False, parent: None
-	right_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-	left_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-
-name: name: gen_1_no_3-t2-g6-t1-g9, eval 3.538651398820217
-res: Start                     2004-08-19 00:00:00
-End                       2013-03-01 00:00:00
-Duration                   3116 days 00:00:00
-Exposure Time [%]                    99.90689
-Equity Final [$]                   427930.225
-Equity Peak [$]                    461492.935
-Return [%]                         4179.30225
-Buy & Hold Return [%]              703.458242
-Return (Ann.) [%]                   55.378214
-Volatility (Ann.) [%]               58.762385
-Sharpe Ratio                         0.942409
-Sortino Ratio                        2.305258
-Calmar Ratio                         1.419503
-Max. Drawdown [%]                  -39.012406
-Avg. Drawdown [%]                   -6.458078
-Max. Drawdown Duration      560 days 00:00:00
-Avg. Drawdown Duration       38 days 00:00:00
-# Trades                                  628
-Win Rate [%]                        57.484076
-Best Trade [%]                      13.790276
-Worst Trade [%]                    -20.434293
-Avg. Trade [%]                       0.749836
-Max. Trade Duration          58 days 00:00:00
-Avg. Trade Duration           9 days 00:00:00
-Profit Factor                        1.462601
-Expectancy [%]                       0.877701
-SQN                                  2.396248
-_strategy                     GeneticStrategy
-_equity_curve                             ...
-_trades                        Size  Entry...
-dtype: object 
-CALAC:tree operator: Operator.ADD, is_rec: False, parent: None
-	right_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-	left_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-
-name: name: gen_1_no_2-t1-g1-t1-g2-t1-g3-t2-g4-t3-g6-t2-g9, eval 3.538651398820217
-res: Start                     2004-08-19 00:00:00
-End                       2013-03-01 00:00:00
-Duration                   3116 days 00:00:00
-Exposure Time [%]                    99.90689
-Equity Final [$]                   427930.225
-Equity Peak [$]                    461492.935
-Return [%]                         4179.30225
-Buy & Hold Return [%]              703.458242
-Return (Ann.) [%]                   55.378214
-Volatility (Ann.) [%]               58.762385
-Sharpe Ratio                         0.942409
-Sortino Ratio                        2.305258
-Calmar Ratio                         1.419503
-Max. Drawdown [%]                  -39.012406
-Avg. Drawdown [%]                   -6.458078
-Max. Drawdown Duration      560 days 00:00:00
-Avg. Drawdown Duration       38 days 00:00:00
-# Trades                                  628
-Win Rate [%]                        57.484076
-Best Trade [%]                      13.790276
-Worst Trade [%]                    -20.434293
-Avg. Trade [%]                       0.749836
-Max. Trade Duration          58 days 00:00:00
-Avg. Trade Duration           9 days 00:00:00
-Profit Factor                        1.462601
-Expectancy [%]                       0.877701
-SQN                                  2.396248
-_strategy                     GeneticStrategy
-_equity_curve                             ...
-_trades                        Size  Entry...
-dtype: object 
-CALAC:tree operator: Operator.XOR, is_rec: False, parent: None
-	right_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-	left_child:
-operator: Operator.ADD, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:24
-	upper_bound: 91
-	lower_bound: 19
-	weight: 1.01
-	left_child:
-bbands:
-	timeperiod:18
-	nbdevup: 3
-	nbdevdn:6
-	type_func:2
-
-name: name: gen_1_no_2-t1-g1-t1-g2-t1-g3-t2-g4-t1-g7-t3-g9, eval 3.538651398820217
-res: Start                     2004-08-19 00:00:00
-End                       2013-03-01 00:00:00
-Duration                   3116 days 00:00:00
-Exposure Time [%]                    99.90689
-Equity Final [$]                   427930.225
-Equity Peak [$]                    461492.935
-Return [%]                         4179.30225
-Buy & Hold Return [%]              703.458242
-Return (Ann.) [%]                   55.378214
-Volatility (Ann.) [%]               58.762385
-Sharpe Ratio                         0.942409
-Sortino Ratio                        2.305258
-Calmar Ratio                         1.419503
-Max. Drawdown [%]                  -39.012406
-Avg. Drawdown [%]                   -6.458078
-Max. Drawdown Duration      560 days 00:00:00
-Avg. Drawdown Duration       38 days 00:00:00
-# Trades                                  628
-Win Rate [%]                        57.484076
-Best Trade [%]                      13.790276
-Worst Trade [%]                    -20.434293
-Avg. Trade [%]                       0.749836
-Max. Trade Duration          58 days 00:00:00
-Avg. Trade Duration           9 days 00:00:00
-Profit Factor                        1.462601
-Expectancy [%]                       0.877701
-SQN                                  2.396248
-_strategy                     GeneticStrategy
-_equity_curve                             ...
-_trades                        Size  Entry...
-dtype: object 
-CALAC:tree operator: Operator.XOR, is_rec: False, parent: None
-	right_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-	left_child:
-operator: Operator.ADD, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:24
-	upper_bound: 91
-	lower_bound: 19
-	weight: 1.01
-	left_child:
-bbands:
-	timeperiod:18
-	nbdevup: 3
-	nbdevdn:6
-	type_func:2
-
-name: name: gen_1_no_3-t2-g6-t1-g9, eval -199998
-res: Start                     2004-08-19 00:00:00
-End                       2013-03-01 00:00:00
-Duration                   3116 days 00:00:00
-Exposure Time [%]                   55.167598
-Equity Final [$]                      366.703
+Exposure Time [%]                   70.204842
+Equity Final [$]                     458.5225
 Equity Peak [$]                       10000.0
-Return [%]                          -96.33297
+Return [%]                         -95.414775
 Buy & Hold Return [%]              703.458242
-Return (Ann.) [%]                  -32.147224
-Volatility (Ann.) [%]                18.97405
+Return (Ann.) [%]                  -30.344899
+Volatility (Ann.) [%]                21.88561
 Sharpe Ratio                              0.0
 Sortino Ratio                             0.0
 Calmar Ratio                              0.0
-Max. Drawdown [%]                   -96.33297
-Avg. Drawdown [%]                   -96.33297
+Max. Drawdown [%]                  -95.554415
+Avg. Drawdown [%]                  -95.554415
 Max. Drawdown Duration     3115 days 00:00:00
 Avg. Drawdown Duration     3115 days 00:00:00
-# Trades                                  349
-Win Rate [%]                        38.968481
+# Trades                                  391
+Win Rate [%]                        40.920716
+Best Trade [%]                      20.434293
+Worst Trade [%]                    -14.503311
+Avg. Trade [%]                       -0.83602
+Max. Trade Duration          42 days 00:00:00
+Avg. Trade Duration           7 days 00:00:00
+Profit Factor                        0.728877
+Expectancy [%]                      -0.709884
+SQN                                  -3.21181
+_strategy                     GeneticStrategy
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object 
+CALAC:tree operator: Operator.NOT_OR, is_rec: False, parent: None
+	right_child:
+operator: Operator.SMALLER, is_rec: False, parent: parent
+	right_child:
+ema:
+	 t1:6
+	 t2: 10
+	 t3: 24
+	 weight 1.87
+	left_child:
+bbands:
+	timeperiod:3
+	nbdevup: 4
+	nbdevdn:9
+	type_func:1
+	left_child:
+operator: Operator.XNOR, is_rec: False, parent: parent
+	right_child:
+rsi:
+	timeperiod:12
+	upper_bound: 75
+	lower_bound: 21
+	weight: 1.37
+	left_child:
+ema:
+	 t1:5
+	 t2: 11
+	 t3: 13
+	 weight 1.48
+
+name: name: g_1_no_6, eval 159.57860200678556
+res: Start                     2004-08-19 00:00:00
+End                       2013-03-01 00:00:00
+Duration                   3116 days 00:00:00
+Exposure Time [%]                    99.90689
+Equity Final [$]                    47592.192
+Equity Peak [$]                    75215.6115
+Return [%]                          375.92192
+Buy & Hold Return [%]              703.458242
+Return (Ann.) [%]                   20.084631
+Volatility (Ann.) [%]               45.046058
+Sharpe Ratio                         0.445869
+Sortino Ratio                         0.82215
+Calmar Ratio                         0.238544
+Max. Drawdown [%]                  -84.196642
+Avg. Drawdown [%]                   -7.708536
+Max. Drawdown Duration     1908 days 00:00:00
+Avg. Drawdown Duration       82 days 00:00:00
+# Trades                                  472
+Win Rate [%]                        52.330508
 Best Trade [%]                      20.434293
 Worst Trade [%]                    -13.790276
-Avg. Trade [%]                      -0.966521
-Max. Trade Duration          42 days 00:00:00
-Avg. Trade Duration           6 days 00:00:00
-Profit Factor                        0.673641
-Expectancy [%]                      -0.849277
-SQN                                 -2.972514
+Avg. Trade [%]                       0.292536
+Max. Trade Duration          56 days 00:00:00
+Avg. Trade Duration           8 days 00:00:00
+Profit Factor                        1.208919
+Expectancy [%]                       0.412152
+SQN                                  1.064448
 _strategy                     GeneticStrategy
 _equity_curve                            E...
 _trades                        Size  Entry...
 dtype: object 
-CALAC:tree operator: Operator.XNOR, is_rec: False, parent: None
+CALAC:tree operator: Operator.SMALLER, is_rec: False, parent: None
 	right_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-	left_child:
-operator: Operator.XOR, is_rec: True, parent: parent
+operator: Operator.XNOR, is_rec: False, parent: parent
 	right_child:
 rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
+	timeperiod:12
+	upper_bound: 75
+	lower_bound: 21
+	weight: 1.37
 	left_child:
+ema:
+	 t1:5
+	 t2: 11
+	 t3: 13
+	 weight 1.48
+	left_child:
+operator: Operator.XOR, is_rec: False, parent: parent
+	right_child:
 rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
+	timeperiod:14
+	upper_bound: 83
+	lower_bound: 5
+	weight: 1.54
+	left_child:
+ema sma:
+	 ema_timeperiod:15
+	 sma_timeperiod: 4
+	 weight: 1.64
 
-name: name: gen_1_no_2-t1-g1-t1-g2-t1-g3-t2-g4-t3-g6-t2-g9, eval 3.538651398820217
+name: name: g_1_no_10, eval 605.7561591457226
 res: Start                     2004-08-19 00:00:00
 End                       2013-03-01 00:00:00
 Duration                   3116 days 00:00:00
 Exposure Time [%]                    99.90689
-Equity Final [$]                   427930.225
-Equity Peak [$]                    461492.935
-Return [%]                         4179.30225
+Equity Final [$]                  176432.1225
+Equity Peak [$]                   257398.5345
+Return [%]                        1664.321225
 Buy & Hold Return [%]              703.458242
-Return (Ann.) [%]                   55.378214
-Volatility (Ann.) [%]               58.762385
-Sharpe Ratio                         0.942409
-Sortino Ratio                        2.305258
-Calmar Ratio                         1.419503
-Max. Drawdown [%]                  -39.012406
-Avg. Drawdown [%]                   -6.458078
-Max. Drawdown Duration      560 days 00:00:00
-Avg. Drawdown Duration       38 days 00:00:00
-# Trades                                  628
-Win Rate [%]                        57.484076
-Best Trade [%]                      13.790276
-Worst Trade [%]                    -20.434293
-Avg. Trade [%]                       0.749836
+Return (Ann.) [%]                   40.038207
+Volatility (Ann.) [%]               53.440749
+Sharpe Ratio                         0.749207
+Sortino Ratio                        1.645556
+Calmar Ratio                         0.710895
+Max. Drawdown [%]                  -56.320831
+Avg. Drawdown [%]                   -7.070093
+Max. Drawdown Duration      584 days 00:00:00
+Avg. Drawdown Duration       45 days 00:00:00
+# Trades                                  623
+Win Rate [%]                        56.982343
+Best Trade [%]                      16.824919
+Worst Trade [%]                    -15.305102
+Avg. Trade [%]                       0.671192
 Max. Trade Duration          58 days 00:00:00
 Avg. Trade Duration           9 days 00:00:00
-Profit Factor                        1.462601
-Expectancy [%]                       0.877701
-SQN                                  2.396248
+Profit Factor                        1.420455
+Expectancy [%]                       0.796771
+SQN                                  1.659555
 _strategy                     GeneticStrategy
 _equity_curve                             ...
 _trades                        Size  Entry...
 dtype: object 
-CALAC:tree operator: Operator.XOR, is_rec: False, parent: None
+CALAC:tree operator: Operator.AND, is_rec: False, parent: None
 	right_child:
-operator: Operator.XOR, is_rec: True, parent: parent
+operator: Operator.SUB, is_rec: False, parent: parent
 	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
+ema:
+	 t1:5
+	 t2: 14
+	 t3: 20
+	 weight 1.28
 	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
+ema:
+	 t1:6
+	 t2: 8
+	 t3: 19
+	 weight 1.29
 	left_child:
-operator: Operator.ADD, is_rec: True, parent: parent
+operator: Operator.OR, is_rec: False, parent: parent
 	right_child:
-rsi:
-	timeperiod:24
-	upper_bound: 91
-	lower_bound: 19
-	weight: 1.01
+ema sma:
+	 ema_timeperiod:20
+	 sma_timeperiod: 11
+	 weight: 1.97
 	left_child:
-bbands:
-	timeperiod:18
-	nbdevup: 3
-	nbdevdn:6
-	type_func:2
+ema:
+	 t1:6
+	 t2: 9
+	 t3: 21
+	 weight 1.15
 
-name: name: gen_1_no_2-t1-g1-t1-g2-t1-g3-t2-g4-t1-g7-t3-g9, eval 3.538651398820217
+name: name: g_1_no_9, eval 636.1928960976177
 res: Start                     2004-08-19 00:00:00
 End                       2013-03-01 00:00:00
 Duration                   3116 days 00:00:00
 Exposure Time [%]                    99.90689
-Equity Final [$]                   427930.225
-Equity Peak [$]                    461492.935
-Return [%]                         4179.30225
+Equity Final [$]                   185605.874
+Equity Peak [$]                    209302.425
+Return [%]                         1756.05874
 Buy & Hold Return [%]              703.458242
-Return (Ann.) [%]                   55.378214
-Volatility (Ann.) [%]               58.762385
-Sharpe Ratio                         0.942409
-Sortino Ratio                        2.305258
-Calmar Ratio                         1.419503
-Max. Drawdown [%]                  -39.012406
-Avg. Drawdown [%]                   -6.458078
-Max. Drawdown Duration      560 days 00:00:00
-Avg. Drawdown Duration       38 days 00:00:00
-# Trades                                  628
-Win Rate [%]                        57.484076
-Best Trade [%]                      13.790276
-Worst Trade [%]                    -20.434293
-Avg. Trade [%]                       0.749836
-Max. Trade Duration          58 days 00:00:00
-Avg. Trade Duration           9 days 00:00:00
-Profit Factor                        1.462601
-Expectancy [%]                       0.877701
-SQN                                  2.396248
-_strategy                     GeneticStrategy
-_equity_curve                             ...
-_trades                        Size  Entry...
-dtype: object 
-CALAC:tree operator: Operator.XOR, is_rec: False, parent: None
-	right_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-	left_child:
-operator: Operator.ADD, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:24
-	upper_bound: 91
-	lower_bound: 19
-	weight: 1.01
-	left_child:
-bbands:
-	timeperiod:18
-	nbdevup: 3
-	nbdevdn:6
-	type_func:2
-
-name: name: gen_1_no_2-t1-g1-t1-g2-t1-g3-t1-g4-t3-g5-m18, eval -0.8107598512368699
-res: Start                     2004-08-19 00:00:00
-End                       2013-03-01 00:00:00
-Duration                   3116 days 00:00:00
-Exposure Time [%]                   71.461825
-Equity Final [$]                   169871.305
-Equity Peak [$]                    170009.905
-Return [%]                         1598.71305
-Buy & Hold Return [%]              703.458242
-Return (Ann.) [%]                   39.417008
-Volatility (Ann.) [%]               38.761605
-Sharpe Ratio                         1.016909
-Sortino Ratio                        2.294515
-Calmar Ratio                         0.650095
-Max. Drawdown [%]                  -60.632682
-Avg. Drawdown [%]                   -4.673825
-Max. Drawdown Duration      748 days 00:00:00
+Return (Ann.) [%]                   40.873465
+Volatility (Ann.) [%]               53.519536
+Sharpe Ratio                         0.763711
+Sortino Ratio                        1.666285
+Calmar Ratio                         0.800397
+Max. Drawdown [%]                  -51.066489
+Avg. Drawdown [%]                    -6.39504
+Max. Drawdown Duration      505 days 00:00:00
 Avg. Drawdown Duration       40 days 00:00:00
-# Trades                                  224
-Win Rate [%]                        63.839286
-Best Trade [%]                      13.315685
-Worst Trade [%]                     -9.558306
-Avg. Trade [%]                       1.272961
-Max. Trade Duration          48 days 00:00:00
-Avg. Trade Duration          10 days 00:00:00
-Profit Factor                        1.820002
-Expectancy [%]                       1.397154
-SQN                                  2.762677
+# Trades                                  539
+Win Rate [%]                        56.215213
+Best Trade [%]                      14.503311
+Worst Trade [%]                    -20.434293
+Avg. Trade [%]                       0.667595
+Max. Trade Duration          56 days 00:00:00
+Avg. Trade Duration           8 days 00:00:00
+Profit Factor                        1.416057
+Expectancy [%]                       0.794275
+SQN                                  1.941907
 _strategy                     GeneticStrategy
 _equity_curve                             ...
 _trades                        Size  Entry...
 dtype: object 
-CALAC:tree operator: Operator.BIGGER, is_rec: False, parent: None
+CALAC:tree operator: Operator.AND, is_rec: False, parent: None
 	right_child:
-operator: Operator.XOR, is_rec: True, parent: parent
+operator: Operator.OR, is_rec: False, parent: parent
 	right_child:
 ema sma:
-	 ema_timeperiod:5
-	 sma_timeperiod: 14
-	 weight: 1.89
+	 ema_timeperiod:20
+	 sma_timeperiod: 11
+	 weight: 1.97
 	left_child:
-rsi:
-	timeperiod:9
-	upper_bound: 66
-	lower_bound: 41
-	weight: 1.38
+ema:
+	 t1:6
+	 t2: 9
+	 t3: 21
+	 weight 1.15
 	left_child:
-operator: Operator.ADD, is_rec: True, parent: parent
+operator: Operator.SMALLER, is_rec: False, parent: parent
 	right_child:
 rsi:
-	timeperiod:24
-	upper_bound: 91
-	lower_bound: 19
-	weight: 1.01
+	timeperiod:16
+	upper_bound: 66
+	lower_bound: 24
+	weight: 1.61
 	left_child:
 bbands:
-	timeperiod:18
-	nbdevup: 3
-	nbdevdn:6
-	type_func:2
+	timeperiod:19
+	nbdevup: 9
+	nbdevdn:11
+	type_func:1
 
-name: name: gen_1_no_2-t1-g1-t1-g2-t1-g3-t1-g5-m18, eval 0.7458162865232074
+name: name: g_1_no_14, eval 98.0684251621237
 res: Start                     2004-08-19 00:00:00
 End                       2013-03-01 00:00:00
 Duration                   3116 days 00:00:00
 Exposure Time [%]                    99.90689
-Equity Final [$]                  297347.0265
-Equity Peak [$]                   352580.5795
-Return [%]                        2873.470265
+Equity Final [$]                    31175.809
+Equity Peak [$]                    57774.2955
+Return [%]                          211.75809
 Buy & Hold Return [%]              703.458242
-Return (Ann.) [%]                   48.881584
-Volatility (Ann.) [%]               56.471364
-Sharpe Ratio                         0.865599
-Sortino Ratio                        2.005632
-Calmar Ratio                          1.10666
-Max. Drawdown [%]                  -44.170373
-Avg. Drawdown [%]                   -6.612405
-Max. Drawdown Duration      560 days 00:00:00
-Avg. Drawdown Duration       38 days 00:00:00
-# Trades                                  607
-Win Rate [%]                        55.354201
-Best Trade [%]                      14.157539
+Return (Ann.) [%]                   14.270446
+Volatility (Ann.) [%]               43.073533
+Sharpe Ratio                         0.331304
+Sortino Ratio                         0.57305
+Calmar Ratio                         0.213686
+Max. Drawdown [%]                  -66.782455
+Avg. Drawdown [%]                   -8.721284
+Max. Drawdown Duration     1942 days 00:00:00
+Avg. Drawdown Duration       87 days 00:00:00
+# Trades                                  500
+Win Rate [%]                             55.0
+Best Trade [%]                      20.434293
+Worst Trade [%]                    -13.435428
+Avg. Trade [%]                       0.425037
+Max. Trade Duration          56 days 00:00:00
+Avg. Trade Duration           8 days 00:00:00
+Profit Factor                        1.290647
+Expectancy [%]                        0.53907
+SQN                                   0.68031
+_strategy                     GeneticStrategy
+_equity_curve                            E...
+_trades                        Size  Entry...
+dtype: object 
+CALAC:tree operator: Operator.AND, is_rec: False, parent: None
+	right_child:
+operator: Operator.AND, is_rec: False, parent: parent
+	right_child:
+ema:
+	 t1:5
+	 t2: 8
+	 t3: 17
+	 weight 1.81
+	left_child:
+ema:
+	 t1:6
+	 t2: 8
+	 t3: 10
+	 weight 1.0
+	left_child:
+tree operator: Operator.NOT_OR, is_rec: False, parent: parent
+	right_child:
+operator: Operator.OR, is_rec: False, parent: parent
+	right_child:
+ema sma:
+	 ema_timeperiod:12
+	 sma_timeperiod: 19
+	 weight: 0.7
+	left_child:
+rsi:
+	timeperiod:15
+	upper_bound: 68
+	lower_bound: 34
+	weight: 1.39
+	left_child:
+operator: Operator.SMALLER, is_rec: False, parent: parent
+	right_child:
+rsi:
+	timeperiod:12
+	upper_bound: 89
+	lower_bound: 22
+	weight: 1.04
+	left_child:
+ema sma:
+	 ema_timeperiod:6
+	 sma_timeperiod: 6
+	 weight: 1.12
+
+name: name: g_1_no_0, eval -199998
+res: Start                     2004-08-19 00:00:00
+End                       2013-03-01 00:00:00
+Duration                   3116 days 00:00:00
+Exposure Time [%]                    99.90689
+Equity Final [$]                       807.18
+Equity Peak [$]                    11496.0425
+Return [%]                           -91.9282
+Buy & Hold Return [%]              703.458242
+Return (Ann.) [%]                  -25.566665
+Volatility (Ann.) [%]               25.054513
+Sharpe Ratio                              0.0
+Sortino Ratio                             0.0
+Calmar Ratio                              0.0
+Max. Drawdown [%]                  -92.984368
+Avg. Drawdown [%]                  -24.352454
+Max. Drawdown Duration     3101 days 00:00:00
+Avg. Drawdown Duration      778 days 00:00:00
+# Trades                                  467
+Win Rate [%]                         42.61242
+Best Trade [%]                      12.373936
 Worst Trade [%]                    -20.434293
-Avg. Trade [%]                       0.549942
+Avg. Trade [%]                       -0.74005
+Max. Trade Duration          56 days 00:00:00
+Avg. Trade Duration           8 days 00:00:00
+Profit Factor                        0.770377
+Expectancy [%]                      -0.606995
+SQN                                  -3.15929
+_strategy                     GeneticStrategy
+_equity_curve                           Eq...
+_trades                        Size  Entry...
+dtype: object 
+CALAC:tree operator: Operator.NOT_OR, is_rec: False, parent: None
+	right_child:
+tree operator: Operator.NOT_OR, is_rec: False, parent: parent
+	right_child:
+operator: Operator.BIGGER, is_rec: False, parent: parent
+	right_child:
+ema sma:
+	 ema_timeperiod:17
+	 sma_timeperiod: 6
+	 weight: 1.36
+	left_child:
+bbands:
+	timeperiod:17
+	nbdevup: 12
+	nbdevdn:15
+	type_func:2
+	left_child:
+operator: Operator.OR, is_rec: False, parent: parent
+	right_child:
+rsi:
+	timeperiod:20
+	upper_bound: 66
+	lower_bound: 7
+	weight: 1.0
+	left_child:
+ema sma:
+	 ema_timeperiod:19
+	 sma_timeperiod: 18
+	 weight: 1.81
+	left_child:
+operator: Operator.BIGGER, is_rec: False, parent: parent
+	right_child:
+ema:
+	 t1:4
+	 t2: 14
+	 t3: 24
+	 weight 1.23
+	left_child:
+ema:
+	 t1:5
+	 t2: 9
+	 t3: 27
+	 weight 1.7
+
+name: name: g_1_no_2-t1-g0, eval 780.7602247676217
+res: Start                     2004-08-19 00:00:00
+End                       2013-03-01 00:00:00
+Duration                   3116 days 00:00:00
+Exposure Time [%]                    99.90689
+Equity Final [$]                  226746.9445
+Equity Peak [$]                   325680.9325
+Return [%]                        2167.469445
+Buy & Hold Return [%]              703.458242
+Return (Ann.) [%]                   44.221498
+Volatility (Ann.) [%]               54.751985
+Sharpe Ratio                         0.807669
+Sortino Ratio                        1.787751
+Calmar Ratio                         0.813533
+Max. Drawdown [%]                  -54.357369
+Avg. Drawdown [%]                   -6.000793
+Max. Drawdown Duration      584 days 00:00:00
+Avg. Drawdown Duration       38 days 00:00:00
+# Trades                                  606
+Win Rate [%]                        56.270627
+Best Trade [%]                      13.790276
+Worst Trade [%]                    -20.434293
+Avg. Trade [%]                       0.615811
 Max. Trade Duration          58 days 00:00:00
 Avg. Trade Duration           9 days 00:00:00
-Profit Factor                        1.341786
-Expectancy [%]                       0.679385
-SQN                                  2.105788
+Profit Factor                        1.386095
+Expectancy [%]                       0.743122
+SQN                                  1.858416
+_strategy                     GeneticStrategy
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object 
+CALAC:tree operator: Operator.NOT_OR, is_rec: False, parent: None
+	right_child:
+operator: Operator.AND, is_rec: False, parent: parent
+	right_child:
+bbands:
+	timeperiod:18
+	nbdevup: 15
+	nbdevdn:11
+	type_func:2
+	left_child:
+ema sma:
+	 ema_timeperiod:16
+	 sma_timeperiod: 15
+	 weight: 1.83
+	left_child:
+operator: Operator.XNOR, is_rec: False, parent: parent
+	right_child:
+rsi:
+	timeperiod:12
+	upper_bound: 75
+	lower_bound: 21
+	weight: 1.37
+	left_child:
+ema:
+	 t1:5
+	 t2: 11
+	 t3: 13
+	 weight 1.48
+
+name: name: g_1_no_9-t2-g0, eval 605.7561591457226
+res: Start                     2004-08-19 00:00:00
+End                       2013-03-01 00:00:00
+Duration                   3116 days 00:00:00
+Exposure Time [%]                    99.90689
+Equity Final [$]                  176432.1225
+Equity Peak [$]                   257398.5345
+Return [%]                        1664.321225
+Buy & Hold Return [%]              703.458242
+Return (Ann.) [%]                   40.038207
+Volatility (Ann.) [%]               53.440749
+Sharpe Ratio                         0.749207
+Sortino Ratio                        1.645556
+Calmar Ratio                         0.710895
+Max. Drawdown [%]                  -56.320831
+Avg. Drawdown [%]                   -7.070093
+Max. Drawdown Duration      584 days 00:00:00
+Avg. Drawdown Duration       45 days 00:00:00
+# Trades                                  623
+Win Rate [%]                        56.982343
+Best Trade [%]                      16.824919
+Worst Trade [%]                    -15.305102
+Avg. Trade [%]                       0.671192
+Max. Trade Duration          58 days 00:00:00
+Avg. Trade Duration           9 days 00:00:00
+Profit Factor                        1.420455
+Expectancy [%]                       0.796771
+SQN                                  1.659555
+_strategy                     GeneticStrategy
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object 
+CALAC:tree operator: Operator.AND, is_rec: False, parent: None
+	right_child:
+operator: Operator.SUB, is_rec: False, parent: parent
+	right_child:
+ema:
+	 t1:5
+	 t2: 14
+	 t3: 20
+	 weight 1.28
+	left_child:
+ema:
+	 t1:6
+	 t2: 8
+	 t3: 19
+	 weight 1.29
+	left_child:
+operator: Operator.SMALLER, is_rec: False, parent: parent
+	right_child:
+rsi:
+	timeperiod:16
+	upper_bound: 66
+	lower_bound: 24
+	weight: 1.61
+	left_child:
+bbands:
+	timeperiod:19
+	nbdevup: 9
+	nbdevdn:11
+	type_func:1
+
+name: name: g_1_no_10-t3-g0, eval 598.1740430672545
+res: Start                     2004-08-19 00:00:00
+End                       2013-03-01 00:00:00
+Duration                   3116 days 00:00:00
+Exposure Time [%]                    99.90689
+Equity Final [$]                   175311.749
+Equity Peak [$]                     184390.76
+Return [%]                         1653.11749
+Buy & Hold Return [%]              703.458242
+Return (Ann.) [%]                   39.933586
+Volatility (Ann.) [%]                53.34038
+Sharpe Ratio                         0.748656
+Sortino Ratio                        1.595443
+Calmar Ratio                         0.801177
+Max. Drawdown [%]                  -49.843635
+Avg. Drawdown [%]                   -6.279901
+Max. Drawdown Duration      560 days 00:00:00
+Avg. Drawdown Duration       39 days 00:00:00
+# Trades                                  586
+Win Rate [%]                        55.460751
+Best Trade [%]                      13.315685
+Worst Trade [%]                    -20.434293
+Avg. Trade [%]                        0.48266
+Max. Trade Duration          58 days 00:00:00
+Avg. Trade Duration           9 days 00:00:00
+Profit Factor                        1.303258
+Expectancy [%]                        0.61158
+SQN                                  2.260345
+_strategy                     GeneticStrategy
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object 
+CALAC:tree operator: Operator.AND, is_rec: False, parent: None
+	right_child:
+operator: Operator.ADD, is_rec: False, parent: parent
+	right_child:
+ema sma:
+	 ema_timeperiod:10
+	 sma_timeperiod: 5
+	 weight: 1.35
+	left_child:
+ema sma:
+	 ema_timeperiod:7
+	 sma_timeperiod: 16
+	 weight: 1.69
+	left_child:
+operator: Operator.OR, is_rec: False, parent: parent
+	right_child:
+ema sma:
+	 ema_timeperiod:20
+	 sma_timeperiod: 11
+	 weight: 1.97
+	left_child:
+ema:
+	 t1:6
+	 t2: 9
+	 t3: 21
+	 weight 1.15
+
+name: name: g_1_no_2-t1-g0, eval -199998
+res: Start                     2004-08-19 00:00:00
+End                       2013-03-01 00:00:00
+Duration                   3116 days 00:00:00
+Exposure Time [%]                   58.193669
+Equity Final [$]                      435.806
+Equity Peak [$]                      10972.81
+Return [%]                          -95.64194
+Buy & Hold Return [%]              703.458242
+Return (Ann.) [%]                  -30.758892
+Volatility (Ann.) [%]               20.168788
+Sharpe Ratio                              0.0
+Sortino Ratio                             0.0
+Calmar Ratio                              0.0
+Max. Drawdown [%]                   -96.02831
+Avg. Drawdown [%]                  -70.559277
+Max. Drawdown Duration     2935 days 00:00:00
+Avg. Drawdown Duration     1557 days 00:00:00
+# Trades                                  358
+Win Rate [%]                        38.268156
+Best Trade [%]                      20.434293
+Worst Trade [%]                    -13.790276
+Avg. Trade [%]                      -0.963402
+Max. Trade Duration          42 days 00:00:00
+Avg. Trade Duration           6 days 00:00:00
+Profit Factor                        0.683574
+Expectancy [%]                      -0.839392
+SQN                                 -2.465413
+_strategy                     GeneticStrategy
+_equity_curve                            E...
+_trades                        Size  Entry...
+dtype: object 
+CALAC:tree operator: Operator.XOR, is_rec: False, parent: None
+	right_child:
+operator: Operator.AND, is_rec: False, parent: parent
+	right_child:
+bbands:
+	timeperiod:18
+	nbdevup: 15
+	nbdevdn:11
+	type_func:2
+	left_child:
+ema sma:
+	 ema_timeperiod:16
+	 sma_timeperiod: 15
+	 weight: 1.83
+	left_child:
+operator: Operator.XNOR, is_rec: False, parent: parent
+	right_child:
+rsi:
+	timeperiod:12
+	upper_bound: 75
+	lower_bound: 21
+	weight: 1.37
+	left_child:
+ema:
+	 t1:5
+	 t2: 11
+	 t3: 13
+	 weight 1.48
+
+name: name: g_1_no_9-t2-g0, eval 605.7561591457226
+res: Start                     2004-08-19 00:00:00
+End                       2013-03-01 00:00:00
+Duration                   3116 days 00:00:00
+Exposure Time [%]                    99.90689
+Equity Final [$]                  176432.1225
+Equity Peak [$]                   257398.5345
+Return [%]                        1664.321225
+Buy & Hold Return [%]              703.458242
+Return (Ann.) [%]                   40.038207
+Volatility (Ann.) [%]               53.440749
+Sharpe Ratio                         0.749207
+Sortino Ratio                        1.645556
+Calmar Ratio                         0.710895
+Max. Drawdown [%]                  -56.320831
+Avg. Drawdown [%]                   -7.070093
+Max. Drawdown Duration      584 days 00:00:00
+Avg. Drawdown Duration       45 days 00:00:00
+# Trades                                  623
+Win Rate [%]                        56.982343
+Best Trade [%]                      16.824919
+Worst Trade [%]                    -15.305102
+Avg. Trade [%]                       0.671192
+Max. Trade Duration          58 days 00:00:00
+Avg. Trade Duration           9 days 00:00:00
+Profit Factor                        1.420455
+Expectancy [%]                       0.796771
+SQN                                  1.659555
+_strategy                     GeneticStrategy
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object 
+CALAC:tree operator: Operator.AND, is_rec: False, parent: None
+	right_child:
+operator: Operator.SUB, is_rec: False, parent: parent
+	right_child:
+ema:
+	 t1:5
+	 t2: 14
+	 t3: 20
+	 weight 1.28
+	left_child:
+ema:
+	 t1:6
+	 t2: 8
+	 t3: 19
+	 weight 1.29
+	left_child:
+operator: Operator.SMALLER, is_rec: False, parent: parent
+	right_child:
+rsi:
+	timeperiod:16
+	upper_bound: 66
+	lower_bound: 24
+	weight: 1.61
+	left_child:
+bbands:
+	timeperiod:19
+	nbdevup: 9
+	nbdevdn:11
+	type_func:1
+
+name: name: g_1_no_10-t3-g0, eval 277.54955039034047
+res: Start                     2004-08-19 00:00:00
+End                       2013-03-01 00:00:00
+Duration                   3116 days 00:00:00
+Exposure Time [%]                   80.540037
+Equity Final [$]                   82643.0585
+Equity Peak [$]                    82710.3785
+Return [%]                         726.430585
+Buy & Hold Return [%]              703.458242
+Return (Ann.) [%]                   28.116545
+Volatility (Ann.) [%]               39.086502
+Sharpe Ratio                         0.719342
+Sortino Ratio                         1.41502
+Calmar Ratio                         0.490947
+Max. Drawdown [%]                  -57.269996
+Avg. Drawdown [%]                    -5.61422
+Max. Drawdown Duration     1347 days 00:00:00
+Avg. Drawdown Duration       57 days 00:00:00
+# Trades                                  305
+Win Rate [%]                        56.721311
+Best Trade [%]                       13.39192
+Worst Trade [%]                    -14.192626
+Avg. Trade [%]                       0.652937
+Max. Trade Duration          48 days 00:00:00
+Avg. Trade Duration           9 days 00:00:00
+Profit Factor                        1.417504
+Expectancy [%]                       0.774842
+SQN                                  2.390445
+_strategy                     GeneticStrategy
+_equity_curve                             ...
+_trades                        Size  Entry...
+dtype: object 
+CALAC:tree operator: Operator.SUB, is_rec: False, parent: None
+	right_child:
+operator: Operator.ADD, is_rec: False, parent: parent
+	right_child:
+ema sma:
+	 ema_timeperiod:10
+	 sma_timeperiod: 5
+	 weight: 1.35
+	left_child:
+ema sma:
+	 ema_timeperiod:7
+	 sma_timeperiod: 16
+	 weight: 1.69
+	left_child:
+operator: Operator.OR, is_rec: False, parent: parent
+	right_child:
+ema sma:
+	 ema_timeperiod:20
+	 sma_timeperiod: 11
+	 weight: 1.97
+	left_child:
+ema:
+	 t1:6
+	 t2: 9
+	 t3: 21
+	 weight 1.15
+
+name: name: g_1_no_16-m0, eval 287.50762971631343
+res: Start                     2004-08-19 00:00:00
+End                       2013-03-01 00:00:00
+Duration                   3116 days 00:00:00
+Exposure Time [%]                    99.90689
+Equity Final [$]                   86013.8335
+Equity Peak [$]                   135542.0135
+Return [%]                         760.138335
+Buy & Hold Return [%]              703.458242
+Return (Ann.) [%]                   28.718832
+Volatility (Ann.) [%]                48.98795
+Sharpe Ratio                         0.586243
+Sortino Ratio                        1.149755
+Calmar Ratio                         0.497096
+Max. Drawdown [%]                  -57.773189
+Avg. Drawdown [%]                  -10.634446
+Max. Drawdown Duration      616 days 00:00:00
+Avg. Drawdown Duration       72 days 00:00:00
+# Trades                                  585
+Win Rate [%]                        54.700855
+Best Trade [%]                      14.503311
+Worst Trade [%]                    -20.434293
+Avg. Trade [%]                       0.439231
+Max. Trade Duration          58 days 00:00:00
+Avg. Trade Duration           9 days 00:00:00
+Profit Factor                        1.278333
+Expectancy [%]                       0.570788
+SQN                                  1.200825
 _strategy                     GeneticStrategy
 _equity_curve                             ...
 _trades                        Size  Entry...
 dtype: object 
 CALAC:tree operator: Operator.XOR, is_rec: False, parent: None
 	right_child:
-operator: Operator.XOR, is_rec: True, parent: parent
+operator: Operator.ADD, is_rec: False, parent: parent
 	right_child:
-ema sma:
-	 ema_timeperiod:5
-	 sma_timeperiod: 14
-	 weight: 1.89
+ema:
+	 t1:6
+	 t2: 13
+	 t3: 25
+	 weight 1.22
 	left_child:
-rsi:
-	timeperiod:9
-	upper_bound: 66
-	lower_bound: 41
-	weight: 1.38
+ema:
+	 t1:3
+	 t2: 7
+	 t3: 18
+	 weight 1.93
 	left_child:
-operator: Operator.XOR, is_rec: True, parent: parent
+operator: Operator.SUB, is_rec: False, parent: parent
 	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
+ema:
+	 t1:4
+	 t2: 7
+	 t3: 26
+	 weight 1.49
 	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
+bbands:
+	timeperiod:17
+	nbdevup: 5
+	nbdevdn:20
+	type_func:0
 
-name: name: gen_1_no_9-t3-g2-m18, eval -1.787805935242359
+name: name: g_1_no_4-m0, eval 270.31286804204933
 res: Start                     2004-08-19 00:00:00
 End                       2013-03-01 00:00:00
 Duration                   3116 days 00:00:00
-Exposure Time [%]                   81.145251
-Equity Final [$]                  124401.9635
-Equity Peak [$]                   124503.6035
-Return [%]                        1144.019635
+Exposure Time [%]                   67.364991
+Equity Final [$]                    81234.892
+Equity Peak [$]                     81300.892
+Return [%]                          712.34892
 Buy & Hold Return [%]              703.458242
-Return (Ann.) [%]                   34.413664
-Volatility (Ann.) [%]               40.774709
-Sharpe Ratio                         0.843995
-Sortino Ratio                        1.741432
-Calmar Ratio                         0.732707
-Max. Drawdown [%]                  -46.967817
-Avg. Drawdown [%]                   -5.624791
-Max. Drawdown Duration      570 days 00:00:00
-Avg. Drawdown Duration       43 days 00:00:00
-# Trades                                  353
-Win Rate [%]                        55.240793
-Best Trade [%]                      13.790276
-Worst Trade [%]                    -14.192626
-Avg. Trade [%]                       0.655324
-Max. Trade Duration          48 days 00:00:00
+Return (Ann.) [%]                   27.858493
+Volatility (Ann.) [%]               35.223978
+Sharpe Ratio                         0.790896
+Sortino Ratio                        1.568115
+Calmar Ratio                         0.710676
+Max. Drawdown [%]                  -39.200015
+Avg. Drawdown [%]                   -5.982232
+Max. Drawdown Duration      685 days 00:00:00
+Avg. Drawdown Duration       51 days 00:00:00
+# Trades                                  233
+Win Rate [%]                        60.085837
+Best Trade [%]                      13.315685
+Worst Trade [%]                     -9.558306
+Avg. Trade [%]                       0.956828
+Max. Trade Duration          54 days 00:00:00
 Avg. Trade Duration           9 days 00:00:00
-Profit Factor                        1.422415
-Expectancy [%]                       0.773165
-SQN                                  2.339405
+Profit Factor                        1.597457
+Expectancy [%]                       1.078451
+SQN                                  2.314559
+_strategy                     GeneticStrategy
+_equity_curve                            E...
+_trades                        Size  Entry...
+dtype: object 
+CALAC:tree operator: Operator.ADD, is_rec: False, parent: None
+	right_child:
+operator: Operator.ADD, is_rec: False, parent: parent
+	right_child:
+ema:
+	 t1:6
+	 t2: 8
+	 t3: 14
+	 weight 1.48
+	left_child:
+ema:
+	 t1:3
+	 t2: 13
+	 t3: 16
+	 weight 0.54
+	left_child:
+operator: Operator.ADD, is_rec: False, parent: parent
+	right_child:
+bbands:
+	timeperiod:18
+	nbdevup: 4
+	nbdevdn:9
+	type_func:0
+	left_child:
+ema sma:
+	 ema_timeperiod:20
+	 sma_timeperiod: 20
+	 weight: 1.39
+
+name: name: g_1_no_0-m0, eval 152.9247494647198
+res: Start                     2004-08-19 00:00:00
+End                       2013-03-01 00:00:00
+Duration                   3116 days 00:00:00
+Exposure Time [%]                    99.90689
+Equity Final [$]                    46825.814
+Equity Peak [$]                     46825.814
+Return [%]                          368.25814
+Buy & Hold Return [%]              703.458242
+Return (Ann.) [%]                   19.856141
+Volatility (Ann.) [%]               44.688662
+Sharpe Ratio                         0.444322
+Sortino Ratio                        0.830208
+Calmar Ratio                         0.294299
+Max. Drawdown [%]                  -67.469179
+Avg. Drawdown [%]                   -7.533966
+Max. Drawdown Duration     1575 days 00:00:00
+Avg. Drawdown Duration       83 days 00:00:00
+# Trades                                  510
+Win Rate [%]                        53.333333
+Best Trade [%]                      20.434293
+Worst Trade [%]                    -10.273165
+Avg. Trade [%]                       0.417095
+Max. Trade Duration          56 days 00:00:00
+Avg. Trade Duration           8 days 00:00:00
+Profit Factor                        1.275314
+Expectancy [%]                       0.539919
+SQN                                  1.632134
+_strategy                     GeneticStrategy
+_equity_curve                            E...
+_trades                        Size  Entry...
+dtype: object 
+CALAC:tree operator: Operator.AND, is_rec: False, parent: None
+	right_child:
+operator: Operator.OR, is_rec: False, parent: parent
+	right_child:
+bbands:
+	timeperiod:18
+	nbdevup: 6
+	nbdevdn:5
+	type_func:2
+	left_child:
+ema:
+	 t1:6
+	 t2: 9
+	 t3: 11
+	 weight 1.47
+	left_child:
+operator: Operator.AND, is_rec: False, parent: parent
+	right_child:
+rsi:
+	timeperiod:10
+	upper_bound: 79
+	lower_bound: 21
+	weight: 1.97
+	left_child:
+bbands:
+	timeperiod:18
+	nbdevup: 7
+	nbdevdn:11
+	type_func:0
+
+name: name: g_1_no_5-m0, eval 129.57919883628924
+res: Start                     2004-08-19 00:00:00
+End                       2013-03-01 00:00:00
+Duration                   3116 days 00:00:00
+Exposure Time [%]                   98.743017
+Equity Final [$]                   39032.7255
+Equity Peak [$]                    59944.6855
+Return [%]                         290.327255
+Buy & Hold Return [%]              703.458242
+Return (Ann.) [%]                   17.323635
+Volatility (Ann.) [%]               44.713006
+Sharpe Ratio                         0.387441
+Sortino Ratio                        0.686954
+Calmar Ratio                         0.204923
+Max. Drawdown [%]                  -84.537321
+Avg. Drawdown [%]                   -8.123873
+Max. Drawdown Duration     1942 days 00:00:00
+Avg. Drawdown Duration       84 days 00:00:00
+# Trades                                  396
+Win Rate [%]                        51.515152
+Best Trade [%]                      20.434293
+Worst Trade [%]                    -11.491559
+Avg. Trade [%]                       0.281539
+Max. Trade Duration          56 days 00:00:00
+Avg. Trade Duration           8 days 00:00:00
+Profit Factor                        1.195311
+Expectancy [%]                       0.411625
+SQN                                   1.07115
 _strategy                     GeneticStrategy
 _equity_curve                             ...
 _trades                        Size  Entry...
 dtype: object 
-CALAC:tree operator: Operator.BIGGER, is_rec: False, parent: None
+CALAC:tree operator: Operator.SUB, is_rec: False, parent: None
 	right_child:
-operator: Operator.XOR, is_rec: True, parent: parent
+operator: Operator.XNOR, is_rec: False, parent: parent
 	right_child:
 rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
+	timeperiod:17
+	upper_bound: 87
+	lower_bound: 13
+	weight: 1.68
+	left_child:
+ema:
+	 t1:6
+	 t2: 12
+	 t3: 27
+	 weight 1.13
+	left_child:
+operator: Operator.SUB, is_rec: False, parent: parent
+	right_child:
+ema:
+	 t1:6
+	 t2: 8
+	 t3: 12
+	 weight 1.01
 	left_child:
 rsi:
-	timeperiod:3
-	upper_bound: 69
+	timeperiod:19
+	upper_bound: 65
 	lower_bound: 26
-	weight: 1.63
-	left_child:
-operator: Operator.ADD, is_rec: True, parent: parent
-	right_child:
-ema sma:
-	 ema_timeperiod:5
-	 sma_timeperiod: 14
-	 weight: 1.89
-	left_child:
-rsi:
-	timeperiod:9
-	upper_bound: 66
-	lower_bound: 41
-	weight: 1.38
+	weight: 1.01
 
-name: name: gen_1_no_17-m18, eval 0.29933275390613057
+name: name: g_1_no_19-m0, eval 128.56914959001455
 res: Start                     2004-08-19 00:00:00
 End                       2013-03-01 00:00:00
 Duration                   3116 days 00:00:00
-Exposure Time [%]                   68.249534
-Equity Final [$]                   216129.959
-Equity Peak [$]                    216306.839
-Return [%]                         2061.29959
+Exposure Time [%]                   99.860335
+Equity Final [$]                    38710.839
+Equity Peak [$]                     60142.254
+Return [%]                          287.10839
 Buy & Hold Return [%]              703.458242
-Return (Ann.) [%]                    43.41239
-Volatility (Ann.) [%]               37.265977
-Sharpe Ratio                         1.164934
-Sortino Ratio                        2.780636
-Calmar Ratio                          1.25468
-Max. Drawdown [%]                  -34.600381
-Avg. Drawdown [%]                   -4.264356
-Max. Drawdown Duration      527 days 00:00:00
-Avg. Drawdown Duration       34 days 00:00:00
-# Trades                                  200
-Win Rate [%]                             65.5
-Best Trade [%]                      13.315685
-Worst Trade [%]                     -9.558306
-Avg. Trade [%]                       1.548931
-Max. Trade Duration          48 days 00:00:00
-Avg. Trade Duration          10 days 00:00:00
-Profit Factor                        2.030856
-Expectancy [%]                       1.671303
-SQN                                  2.962328
+Return (Ann.) [%]                   17.209712
+Volatility (Ann.) [%]               45.451029
+Sharpe Ratio                         0.378643
+Sortino Ratio                        0.671363
+Calmar Ratio                         0.205388
+Max. Drawdown [%]                  -83.791108
+Avg. Drawdown [%]                   -8.543435
+Max. Drawdown Duration     1942 days 00:00:00
+Avg. Drawdown Duration       90 days 00:00:00
+# Trades                                  411
+Win Rate [%]                        51.581509
+Best Trade [%]                      20.434293
+Worst Trade [%]                    -13.790276
+Avg. Trade [%]                       0.325484
+Max. Trade Duration          56 days 00:00:00
+Avg. Trade Duration           8 days 00:00:00
+Profit Factor                        1.219514
+Expectancy [%]                       0.454599
+SQN                                  0.983534
 _strategy                     GeneticStrategy
-_equity_curve                             ...
+_equity_curve                            E...
 _trades                        Size  Entry...
 dtype: object 
 CALAC:tree operator: Operator.SMALLER, is_rec: False, parent: None
 	right_child:
-operator: Operator.XOR, is_rec: True, parent: parent
+operator: Operator.SMALLER, is_rec: False, parent: parent
 	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
+bbands:
+	timeperiod:3
+	nbdevup: 20
+	nbdevdn:8
+	type_func:2
 	left_child:
 rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
+	timeperiod:25
+	upper_bound: 77
+	lower_bound: 40
+	weight: 0.74
+	left_child:
+operator: Operator.SMALLER, is_rec: False, parent: parent
+	right_child:
+rsi:
+	timeperiod:27
+	upper_bound: 92
+	lower_bound: 29
 	weight: 1.63
 	left_child:
-operator: Operator.ADD, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:24
-	upper_bound: 91
-	lower_bound: 19
-	weight: 1.01
-	left_child:
-bbands:
-	timeperiod:18
-	nbdevup: 3
-	nbdevdn:6
-	type_func:2
-
-name: name: gen_1_no_2-t1-g1-t1-g2-t1-g3-t1-g4-m18, eval 0.29933275390613057
-res: Start                     2004-08-19 00:00:00
-End                       2013-03-01 00:00:00
-Duration                   3116 days 00:00:00
-Exposure Time [%]                   68.249534
-Equity Final [$]                   216129.959
-Equity Peak [$]                    216306.839
-Return [%]                         2061.29959
-Buy & Hold Return [%]              703.458242
-Return (Ann.) [%]                    43.41239
-Volatility (Ann.) [%]               37.265977
-Sharpe Ratio                         1.164934
-Sortino Ratio                        2.780636
-Calmar Ratio                          1.25468
-Max. Drawdown [%]                  -34.600381
-Avg. Drawdown [%]                   -4.264356
-Max. Drawdown Duration      527 days 00:00:00
-Avg. Drawdown Duration       34 days 00:00:00
-# Trades                                  200
-Win Rate [%]                             65.5
-Best Trade [%]                      13.315685
-Worst Trade [%]                     -9.558306
-Avg. Trade [%]                       1.548931
-Max. Trade Duration          48 days 00:00:00
-Avg. Trade Duration          10 days 00:00:00
-Profit Factor                        2.030856
-Expectancy [%]                       1.671303
-SQN                                  2.962328
-_strategy                     GeneticStrategy
-_equity_curve                             ...
-_trades                        Size  Entry...
-dtype: object 
-CALAC:tree operator: Operator.BIGGER, is_rec: False, parent: None
-	right_child:
-operator: Operator.XOR, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:22
-	upper_bound: 78
-	lower_bound: 43
-	weight: 1.98
-	left_child:
-rsi:
-	timeperiod:3
-	upper_bound: 69
-	lower_bound: 26
-	weight: 1.63
-	left_child:
-operator: Operator.ADD, is_rec: True, parent: parent
-	right_child:
-rsi:
-	timeperiod:24
-	upper_bound: 91
-	lower_bound: 19
-	weight: 1.01
-	left_child:
-bbands:
-	timeperiod:18
-	nbdevup: 3
-	nbdevdn:6
-	type_func:2
+ema:
+	 t1:3
+	 t2: 10
+	 t3: 14
+	 weight 1.13

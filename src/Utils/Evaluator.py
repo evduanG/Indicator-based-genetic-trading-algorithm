@@ -29,14 +29,16 @@ class Evaluator:
         }
 
     def eval(self):
+        drop_pack_final = self.equity_peak / self.equity_peak
+
         # Calculate individual scores for each metric
-        return_score = self.return_pct / 100 * self.weights['return']
-        drawdown_score = (1 - self.max_drawdown / 100) * self.weights['drawdown']
+        return_score = self.return_pct * self.weights['return']
+        drawdown_score = (1 -self.max_drawdown) * self.weights['drawdown']
         risk_adjusted_return_score = (self.sharpe_ratio + self.sortino_ratio + self.calmar_ratio) / 3 * self.weights['risk_adjusted_return']
-        win_rate_score = self.win_rate / 100 * self.weights['win_rate']
+        win_rate_score = self.win_rate * self.weights['win_rate']
         
         # Calculate the overall strategy score
-        strategy_score = return_score + drawdown_score + risk_adjusted_return_score + win_rate_score
+        strategy_score = return_score + drawdown_score + risk_adjusted_return_score 
         
         # Define some trade-off conditions
         if self.avg_trade_pct < 0:
@@ -51,11 +53,11 @@ class Evaluator:
             trade_off -= 0.2  # Penalize strategies with declining equity
         
         # Apply trade-off conditions
-        strategy_score += trade_off
-        factor = self.profit_factor  / self.sqn
+        # strategy_score += trade_off
+        # factor = self.profit_factor  / self.sqn
         # Additional checks and considerations can be added here
         
-        return strategy_score *factor
+        return drop_pack_final * (strategy_score +  win_rate_score * self.avg_trade_pct)
     
     def evaluate_strategy(params):
         not_good_res = -99999

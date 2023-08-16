@@ -8,6 +8,8 @@ from src.Utils.Evaluator import Evaluator
 from src.GeneticProgramming.Tree import Tree
 import numpy as np
 import pandas as pd
+import inspect
+
 
 import copy
 
@@ -38,13 +40,15 @@ class GeneticProgramming():
 
     columns = ["Start","End","Duration","Exposure Time [%]","Equity Final [$]","Equity Peak [$]","Return [%]","Buy & Hold Return [%]","Return (Ann.) [%]","Volatility (Ann.) [%]","Sharpe Ratio","Sortino Ratio","Calmar Ratio","Max. Drawdown [%]","Avg. Drawdown [%]","Max. Drawdown Duration","Avg. Drawdown Duration","# Trades","Win Rate [%]","Best Trade [%]","Worst Trade [%]" ,"Avg. Trade [%]" ,"Max. Trade Duration","Avg. Trade Duration","Profit Factor","_strategy","_equity_curve"]
 
-    def make_arr_tree(is_rec= False):
-        return [Tree.make_tree(f"gen_1_no_{i}", is_rec=is_rec) for i in range(0, 20,1)]
+    def make_arr_tree(num_of_obj = 20 ,is_rec= False):
+        name = "r_" if is_rec else "g_"
+        return [Tree.make_tree(f"{name}1_no_{i}", is_rec=is_rec) for i in range(0, num_of_obj,1)]
 
-    def __init__(self, num_of_gen) -> None:
+    def __init__(self, num_of_gen, num_of_obj) -> None:
         self.arr = GeneticProgramming.make_arr_tree() + GeneticProgramming.make_arr_tree(True)
         self.num_of_gen = num_of_gen
         self.df =  pd.DataFrame(columns=self.columns)
+        self.num_of_obj = num_of_obj
         
     def run(self):
         def sort_by_stats(tree):
@@ -65,15 +69,30 @@ class GeneticProgramming():
                 
             print(f"top 3 \n{top_3_str}")
 
-            arr = arr_sorted[:20]
+            arr = arr_sorted[:self.num_of_obj]
             np.random.shuffle(arr)
 
-            for i in range(0, len(arr), 2):
-                arr[i].crossover(arr[i+1])
+            for j in range(0,  len(arr), 2):
+                _j = 1+ j
+                size = len(arr)
+                is_over = _j >= size
+
+                if  is_over:
+                    new_trees = GeneticProgramming.make_arr_tree(num_of_obj=3)
+                    t = new_trees[0]
+                    t.right_child = new_trees[1]
+                    t.left_child = new_trees[2]
+                    t.right_child.parent = t
+                    t.left_child.parent = t
+                    arr.append(t)
+                    arr[j].crossover(arr[j+1])
+                    break
+
+                arr[j].crossover(arr[j+1])
             
             self.arr =  arr + top_3 + top_3_mo
             
-            for t in arr_sorted[20:25]:
+            for t in arr_sorted[self.num_of_obj:5+ self.num_of_obj]:
                 t.mutation()
                 t.name += f"-m{i}"
                 self.arr.append(t)
@@ -139,8 +158,12 @@ class GeneticProgramming():
  
         self.df.loc[len(self.df)] = new_row
 
+    def write_top_x_strategy(self, x=3):
+        print(f'write top {x} strategy')
+        for t in self.arr[:x]:
+            t.write_strategy(GOOG)
+        
     def write_results(self):
-        # results = '\n\n'.join([f"name: {t.print()}\nres: {t.stats}" for t in self.arr])
         results = '\n\n'.join([f"name: {str(t.print())}\nres: {str(t.stats)} \nCALAC:{t.to_string()}" for t in self.arr])
 
         f = open("results.md", "w")
@@ -150,6 +173,7 @@ class GeneticProgramming():
 
 
 
-g = GeneticProgramming(10)
+g = GeneticProgramming(num_of_gen=1, num_of_obj=5)
 g.run()
 g.write_results()
+g.write_top_x_strategy()
